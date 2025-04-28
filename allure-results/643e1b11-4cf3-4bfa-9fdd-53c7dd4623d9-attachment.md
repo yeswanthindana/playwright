@@ -1,0 +1,504 @@
+# Test info
+
+- Name: Parameterized Test of text Cypress by tester talk
+- Location: C:\Users\indan\OneDrive\Documents\Playwright2\tests\playwright-mid\param.spec.ts:8:5
+
+# Error details
+
+```
+Error: Timed out 5000ms waiting for expect(locator).toBeVisible()
+
+Locator: getByRole('link', { name: 'Cypress by tester talk' })
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  - expect.toBeVisible with timeout 5000ms
+  - waiting for getByRole('link', { name: 'Cypress by tester talk' })
+
+    at C:\Users\indan\OneDrive\Documents\Playwright2\tests\playwright-mid\param.spec.ts:17:59
+```
+
+# Page snapshot
+
+```yaml
+- dialog
+- banner:
+  - button "Guide"
+  - link "YouTube Home":
+    - /url: /
+  - text: IN
+  - button "Skip navigation"
+  - search:
+    - combobox "Search" [expanded]: Cypress by tester talk
+    - button "Clear search query"
+    - button "Search"
+  - button "Search with your voice"
+  - tooltip "tooltip"
+  - button "Settings"
+  - link "Sign in":
+    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253DCypress%252Bby%252Btester%252Btalk&hl=en&ec=65620
+- navigation:
+  - tab "Home":
+    - link "Home":
+      - /url: /
+  - tab "Shorts"
+  - tab "Subscriptions":
+    - link "Subscriptions":
+      - /url: /feed/subscriptions
+  - tab "You":
+    - link "You":
+      - /url: /feed/you
+  - tab "History":
+    - link "History":
+      - /url: /feed/history
+- main:
+  - tablist:
+    - tab "All" [selected]
+    - tab "Shorts"
+    - tab "Videos"
+    - tab "Unwatched"
+    - tab "Watched"
+    - tab "Recently uploaded"
+    - tab "Live"
+    - tab "Playlists"
+  - button "Search filters": Filters
+  - tooltip "tooltip"
+  - text: "Did you mean:"
+  - link "Cypress by testers talk":
+    - /url: /results?search_query=Cypress+by+testers+talk
+  - link "QA Automation Training Online - 11 to 22 LPA Placement Record - Book a Free Trial":
+    - /url: https://www.google.com/aclk?sa=l&ai=DChcSEwjy78u68fqMAxW8JnsHHTPYC0gYABAAGgJ0bQ&co=1&gclid=EAIaIQobChMI8u_LuvH6jAMVvCZ7Bx0z2AtIEAAYASAAEgIjufD_BwE&sig=AOD64_0OGydZ8nbhduFawNctR18dLqoz7Q&adurl=https://www.crio.do/programs/qa-automation-testing/%3Futm_source%3Dgoogle-ads-search%26utm_medium%3DQA-Broad%26utm_campaign%3DAutomation%26utm_content%3D717540940445%26utm_term%3Dautomation%2520testing%2520tutorial%26utm_network%3Ds%26gad_source%3D2&ms=[CLICK_MS]&nx=[NX]&ny=[NY]&nb=0
+  - link "Become a QA Automation Tester with Real Work Experience in Selenium, TestNG, Maven & more. Master QA Automation Testing...":
+    - /url: https://www.google.com/aclk?sa=l&ai=DChcSEwjy78u68fqMAxW8JnsHHTPYC0gYABAAGgJ0bQ&co=1&gclid=EAIaIQobChMI8u_LuvH6jAMVvCZ7Bx0z2AtIEAAYASAAEgIjufD_BwE&sig=AOD64_0OGydZ8nbhduFawNctR18dLqoz7Q&adurl=https://www.crio.do/programs/qa-automation-testing/%3Futm_source%3Dgoogle-ads-search%26utm_medium%3DQA-Broad%26utm_campaign%3DAutomation%26utm_content%3D717540940445%26utm_term%3Dautomation%2520testing%2520tutorial%26utm_network%3Ds%26gad_source%3D2&ms=[CLICK_MS]&nx=[NX]&ny=[NY]&nb=7
+  - text: Sponsored · https://www.crio.do/qa-automation/testing
+  - button "My Ad Center"
+  - heading "Cypress by Testers Talk☑️" [level=3]:
+    - link "Cypress by Testers Talk☑️":
+      - /url: /watch?v=oJV5whmzfZI&list=PLUeDIlio4THEbdE2jWyBBxkWqjk4JmHHq
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "Cypress Tutorial Full Course | Cypress Automation | Learn Cypress in 5 Hrs · 5:04:18":
+    - /url: /watch?v=oJV5whmzfZI&list=PLUeDIlio4THEbdE2jWyBBxkWqjk4JmHHq
+  - link "Cypress GitHub Repository E2E Testing · 0:43":
+    - /url: /watch?v=Eilrdx99t60&list=PLUeDIlio4THEbdE2jWyBBxkWqjk4JmHHq
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THEbdE2jWyBBxkWqjk4JmHHq
+  - heading "Cypress Tutorial Full Course | Cypress Automation | Learn Cypress in 5 Hrs" [level=3]:
+    - link "Cypress Tutorial Full Course | Cypress Automation | Learn Cypress in 5 Hrs":
+      - /url: /watch?v=oJV5whmzfZI&pp=ygUWQ3lwcmVzcyBieSB0ZXN0ZXIgdGFsaw%3D%3D
+  - button "Action menu"
+  - text: 54K views •1 year ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - tooltip "tooltip"
+  - text: "Cypress Tutorial Full Course 2023 | Learn Cypress in 5 Hrs | #cypress #cypresstutorial #tutorial Cypress Automation Testing End ..."
+  - tooltip "tooltip"
+  - text: 38 chapters
+  - button
+  - button "More"
+  - heading "Switch to Chrome for a great browsing experience." [level=3]
+  - text: Switch to Chrome and start browsing on any device or operating system. Download now.
+  - img "Sponsored":
+    - paragraph: Sponsored
+    - text: ·
+  - link "Google Chrome":
+    - /url: /@GoogleChrome
+  - tooltip "tooltip"
+  - link "Watch":
+    - /url: /watch?v=hm3-WbVUKoA
+  - link "Download":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C7u75uokPaILOFe6Fr7wP48OkScvSgdJ-05XW56MTZBABIABg5YLkg5gOggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAY6Q3LEoqAMEyAMKqgSrAk_QllJxh2jzT34Ffn2NmHxx6Su0fuUqcHCKjasG56Qb9dJ4995MV21zL85pYXdtF6zzq9pt7R7dxV7wHQ7Rp-FqTfLfLgiCdJJZq5S6D2h-jHY7TDY0dlv1cTTvOY4T6wZ4bndQ70K1b_cpruICA9-FQyQGwFo2KtwC-uIfyknQKGmGZrr2PP-kLHbBqghSjxglW7vyM9b4O33IhE34nmW41Q7BJ-i-ersJuk9TM2aTxGjH_aH3xA-7xe7Gmf3RbeFFCi2zs61jx5E3NjXaIf8_ap4-lmpvFpMBnEAF5G4nRyPQX3bGQQniAcd9A-IOKlbyCUZfAZ2_bRwbj7wb1waGKzIvdnPFuNhC-YPUuiQWO9A2dQgQVabPWCEHzcOQ_-AupB5H-0ROTQvMkgUHCBN4q9WzI6AGoQGAB-OJzSKQBwSoB_mxsQKoB4C6sQKoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB73NsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB4KqsQKoB4QIqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB-a8sQKoB8q6sQKoB_zLsQKoB_2ysQKoB_e4sQKoB_i4sQKoB83HsQKoB6XMsQKoB4HGG6gH_K-xAqgH1c4bqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxAqgHwsixApIIC2htMy1XYlZVS29BqAgB0ggpCIBBEAEYXjICggI6DIBCgMCAgICAgIACIkjZoNI1UBRYkNS-uvH6jAOaCR5odHRwczovL3d3dy5nb29nbGUuY29tL2Nocm9tZS-xCYyTBouJNHQ6yAkXyAmPAcgJwgG6CzUIAxAFGAQgBigBMAVAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBtALEuALAdoMJgoLEKCVv4P50sDFpAESAgEDGg0Y6sC0-FEg-NyB64MFQAFKAhAfmg0BEqANAaoNAklOyA0B0g3wAmh0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L2RkbS90cmFja2Nsay9ONTI5NS41MDg3ODEzREVNQU5ER0VOL0IzMjc1ODAzMy40MTE0MTU0NTg7ZGNfdHJrX2FpZD02MDMyODMxODI7ZGNfdHJrX2NpZD0yMjY0NTU5Mzg7ZGNfbGF0PTtkY19yZGlkPTt0YWdfZm9yX2NoaWxkX2RpcmVjdGVkX3RyZWF0bWVudD07dGZ1YT07Z2Rwcj0ke0dEUFJ9O2dkcHJfY29uc2VudD0ke0dEUFJfQ09OU0VOVF83NTV9O2x0ZD07ZGNfdGR2PTE7ZGNfcnVpPTE7ZGNfZXBzPUFIYXM4Y0NFVmFCUHRCZFc2TlNxMFNOdk1oQXdUUUN2TVUzaW1xcUxKc00xbHVibHl5QTZmOHNQSUthdDZLd2hrZFZmWXFsNkw2UzY1VEIzcEhleWtBO2RjX3B1YmlkPTY_Z2FkX3NvdXJjZT0yuBP___________8BiBQFsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBuhcGKAAwADgB0BgB8BgB&ase=2&gclid=EAIaIQobChMIgpO_uvH6jAMV7sKLAR3jISkJEAEYASAAEgK3M_D_BwE&num=1&cid=CAASFeRom-VHkrfMxU4f_-DJRpEZ3AwV8w&ad_cpn=%5BCPN%5D&sig=AOD64_0pOztjf-w_yh-J9StN6-HpSJJjtA&ctype=110&video_id=hm3-WbVUKoA&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=%5BNB%5D&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - button
+  - 'heading "Cypress #7 Write First Cypress Automation Test" [level=3]':
+    - 'link "Cypress #7 Write First Cypress Automation Test"':
+      - /url: /watch?v=Yn3NJfdXVOI&pp=ygUWQ3lwcmVzcyBieSB0ZXN0ZXIgdGFsa9IHCQmECQGHKiGM7w%3D%3D
+  - button "Action menu"
+  - text: 2K views •1 year ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - tooltip "tooltip"
+  - text: "Cypress #7 Write First Cypress Automation Test | Cypress Tutorial Full Course 2023 | Learn Cypress in 5 Hrs | #cypress ..."
+  - tooltip "tooltip"
+  - heading "Shorts" [level=2]
+  - button "More actions"
+  - link:
+    - /url: /shorts/AboZUuexKcc
+  - 'heading "#7 Playwright Vs Cypress Automation | Playwright Testing #playwright #testing #e2e, 2.3K views - play Short" [level=3]':
+    - 'link "#7 Playwright Vs Cypress Automation | Playwright Testing #playwright #testing #e2e"':
+      - /url: /shorts/AboZUuexKcc
+  - button "More actions"
+  - link:
+    - /url: /shorts/bDBTBIdtP3I
+  - 'heading "#8 Cypress Vs Playwright Automation | Playwright Testing Tutorial #playwright #testing #e2e, 1K views - play Short" [level=3]':
+    - 'link "#8 Cypress Vs Playwright Automation | Playwright Testing Tutorial #playwright #testing #e2e"':
+      - /url: /shorts/bDBTBIdtP3I
+  - button "More actions"
+  - link:
+    - /url: /shorts/BeosJ_gPiwE
+  - 'heading "what is cypress testing in telugu #cypresstesting #softwaretrainingtelugu #testingtelugu, 186 views - play Short" [level=3]':
+    - 'link "what is cypress testing in telugu #cypresstesting #softwaretrainingtelugu #testingtelugu"':
+      - /url: /shorts/BeosJ_gPiwE
+  - button "More actions"
+  - link:
+    - /url: /shorts/OjxbCs2lNHA
+  - heading "5 Cypress Key Features You Need to Know! 🤔, 15K views - play Short" [level=3]:
+    - link "5 Cypress Key Features You Need to Know! 🤔":
+      - /url: /shorts/OjxbCs2lNHA
+  - button "More actions"
+  - link:
+    - /url: /shorts/0LKpcArklXk
+  - heading "Selenium VS Playwright VS Cypress, 9.3K views - play Short" [level=3]:
+    - link "Selenium VS Playwright VS Cypress":
+      - /url: /shorts/0LKpcArklXk
+  - button "More actions"
+  - link:
+    - /url: /shorts/GKwqLRwQzJM
+  - 'heading "Selenium vs Cypress | #AskRaghav, 85K views - play Short" [level=3]':
+    - 'link "Selenium vs Cypress | #AskRaghav"':
+      - /url: /shorts/GKwqLRwQzJM
+  - button "More actions"
+  - button "Next"
+  - link:
+    - /url: /@testerstalk
+  - link "Testers Talk tooltip @testerstalk•23.8K subscribers Hi Friends Welcome to Testers Talk channel, Myself Bakkappa N. I have been working as QA SDET Automation Test Lead over a ...":
+    - /url: /@testerstalk
+    - text: Testers Talk
+    - tooltip "tooltip"
+    - text: "@testerstalk•23.8K subscribers Hi Friends Welcome to Testers Talk channel, Myself Bakkappa N. I have been working as QA SDET Automation Test Lead over a ..."
+  - link "Subscribe":
+    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253DCypress%252Bby%252Btester%252Btalk%26continue_action%3DQUFFLUhqbGVKQXZPX01oSUxXRnpHQzA1bkUyaGRtZGdOQXxBQ3Jtc0trTFljVl9NNzJkQW85ZFIyUkR0ZElNY1l0YzF5NDh1enAzbTVKU0cwRFNCLTVSWnE3RUV1SFZjeTNZTlNCSzNrUV9GSDg3MnZ4OERseDhMMnlzTm50Vm9saXYzSmRBX2Fza015TWhNeGNrck1mczhTVmZrdldWb1NiVTY0Rjd6YzNDUDZQU0dfdXR6TVlWeF9vTXRVN1Q2S2NkYXhaeDFNcERHRFZrUGZKczJ0XzlrMy1FVlhkd3JTUGRReV9kRGMyMTJVTUU&hl=en
+  - heading "Cypress Automation Testing Part01 | Cypress Tutorial | Cypress Testing with JavaScript" [level=3]:
+    - link "Cypress Automation Testing Part01 | Cypress Tutorial | Cypress Testing with JavaScript":
+      - /url: /watch?v=kZbuYLalk9U&pp=ygUWQ3lwcmVzcyBieSB0ZXN0ZXIgdGFsaw%3D%3D
+  - button "Action menu"
+  - text: 2.5K views •1 year ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - tooltip "tooltip"
+  - text: "Cypress Tutorial | Cypress Automation | #cypress #cypresstutorial #tutorial Cypress Automation Testing End to End Web ..."
+  - tooltip "tooltip"
+  - text: 15 chapters
+  - button "Cypress Tutorial Full Course | Cypress Getting Started Chapter01 | What is cypress advantages and limitations | Cypress vs Selenium WebDriver | Install nodejs and visual studio code | How to install cypress | open Cypress Test Runner | Cypress Scaffold examples | Cypress folder structure | Cypress Studio Record and Play Test | How to Write First Cypress Automation Test | How create logs in cypress | How to run test on chrome edge firefox | How to run test in headless mode | How to disable auto rerun test in cypress"
+  - button "More"
+  - heading "People also watched" [level=2]
+  - heading "Cypress Interview Questions and Answers for 2025" [level=3]:
+    - link "Cypress Interview Questions and Answers for 2025":
+      - /url: /watch?v=ogt9NgHTg_o&pp=ygUWQ3lwcmVzcyBieSB0ZXN0ZXIgdGFsaw%3D%3D
+  - button "Action menu"
+  - text: 1.3K views •5 months ago
+  - link "Go to channel":
+    - /url: /@InterviewGuide-tips
+  - link "InterviewGuide":
+    - /url: /@InterviewGuide-tips
+  - tooltip "tooltip"
+  - text: In this video, we dive into the most commonly asked Cypress interview questions and provide comprehensive answers to help you ...
+  - tooltip "tooltip"
+  - heading "Software Testing Mock Interview| Cypress Interview| RD Automation Learning" [level=3]:
+    - link "Software Testing Mock Interview| Cypress Interview| RD Automation Learning":
+      - /url: /watch?v=66DQF1rTm-g&pp=ygUWQ3lwcmVzcyBieSB0ZXN0ZXIgdGFsaw%3D%3D
+  - button "Action menu"
+  - text: 14K views •1 year ago
+  - link "Go to channel":
+    - /url: /@rdautomationlearning609
+  - link "RD Automation Learning":
+    - /url: /@rdautomationlearning609
+  - tooltip "tooltip"
+  - text: In this Automation testing mock interview, you will learn how to answer interview questions for experienced. I will be interviewing ...
+  - tooltip "tooltip"
+  - heading "Cypress Testing Interview Questions| Postman Interview Questions For Experienced" [level=3]:
+    - link "Cypress Testing Interview Questions| Postman Interview Questions For Experienced":
+      - /url: /watch?v=Rnfpd8p8Ty0&pp=ygUWQ3lwcmVzcyBieSB0ZXN0ZXIgdGFsaw%3D%3D
+  - button "Action menu"
+  - text: 30K views •3 years ago
+  - link "Go to channel":
+    - /url: /@rdautomationlearning609
+  - link "RD Automation Learning":
+    - /url: /@rdautomationlearning609
+  - tooltip "tooltip"
+  - text: "postmaninterview #cypressinterview #apitesting Which testing framework Cypress support? Cypress support Mocha and Chai."
+  - tooltip "tooltip"
+  - text: 19 moments
+  - button
+  - button "More"
+  - heading "Cypress Multiple Windows Handling | How to Handle New Tabs in Cypress" [level=3]:
+    - link "Cypress Multiple Windows Handling | How to Handle New Tabs in Cypress":
+      - /url: /watch?v=mZB-iSnsj2g&pp=ygUWQ3lwcmVzcyBieSB0ZXN0ZXIgdGFsaw%3D%3D
+  - button "Action menu"
+  - text: 164 views •1 month ago
+  - link "Go to channel":
+    - /url: /@testautomation999
+  - link "Test Automation 101":
+    - /url: /@testautomation999
+  - tooltip "tooltip"
+  - text: Cypress Handle Multiple Windows - Complete Guide Are you struggling with handling multiple windows in Cypress? In this video ...
+  - tooltip "tooltip"
+  - text: +6 more
+  - heading "Playwright TypeScript by Testers Talk☑️" [level=3]:
+    - link "Playwright TypeScript by Testers Talk☑️":
+      - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THEXmQxNvKmdDxAVloGTHXMr
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial · 8:55:10":
+    - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THEXmQxNvKmdDxAVloGTHXMr
+  - link "#2 Advanced Playwright TypeScript Tutorial Full Course 2025 | Playwright Automation Tutorial · 2:22:14":
+    - /url: /watch?v=YfRazDhi9Fw&list=PLUeDIlio4THEXmQxNvKmdDxAVloGTHXMr
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THEXmQxNvKmdDxAVloGTHXMr
+  - heading "Playwright by Testers Talk☑️" [level=3]:
+    - link "Playwright by Testers Talk☑️":
+      - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial · 6:55:08":
+    - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+  - link "Playwright API Testing Tutorial Crash Course 2024 · 1:59:55":
+    - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+  - heading "Shorts" [level=2]
+  - button "More actions"
+  - link:
+    - /url: /shorts/GKwqLRwQzJM
+  - 'heading "Selenium vs Cypress | #AskRaghav, 85K views - play Short" [level=3]':
+    - 'link "Selenium vs Cypress | #AskRaghav"':
+      - /url: /shorts/GKwqLRwQzJM
+  - button "More actions"
+  - link:
+    - /url: /shorts/tZt-0AvM30s
+  - heading "What Is Cypress? The Ultimate Tool for Web Testing, 1.4K views - play Short" [level=3]:
+    - link "What Is Cypress? The Ultimate Tool for Web Testing":
+      - /url: /shorts/tZt-0AvM30s
+  - button "More actions"
+  - link:
+    - /url: /shorts/XOyiyuIRfNE
+  - 'heading "What is Cypress? #cypress #cypressio, 6.8K views - play Short" [level=3]':
+    - 'link "What is Cypress? #cypress #cypressio"':
+      - /url: /shorts/XOyiyuIRfNE
+  - button "More actions"
+  - link:
+    - /url: /shorts/oNmcq1ZSPbs
+  - 'heading "What Is Cypress In Automation Testing & Its Benefits? #automationtesting #testing #testautomation, 6.7K views - play Short" [level=3]':
+    - 'link "What Is Cypress In Automation Testing & Its Benefits? #automationtesting #testing #testautomation"':
+      - /url: /shorts/oNmcq1ZSPbs
+  - button "More actions"
+  - link:
+    - /url: /shorts/u2-5xVM_v2M
+  - heading "Cypress Interview Question || How to pass enter key in Cypress, 4.8K views - play Short" [level=3]:
+    - link "Cypress Interview Question || How to pass enter key in Cypress":
+      - /url: /shorts/u2-5xVM_v2M
+  - button "More actions"
+  - link:
+    - /url: /shorts/DM4Mb-JEf1c
+  - 'heading "What is Cypress?|Cypress Automation Testing #cypresstesting#cypress#automationtesting, 295 views - play Short" [level=3]':
+    - 'link "What is Cypress?|Cypress Automation Testing #cypresstesting#cypress#automationtesting"':
+      - /url: /shorts/DM4Mb-JEf1c
+  - button "More actions"
+  - button "Next"
+  - 'heading "Cypress #16 Xpath in Cypress Web Automation Testing" [level=3]':
+    - 'link "Cypress #16 Xpath in Cypress Web Automation Testing"':
+      - /url: /watch?v=OYHeClS-I8A&pp=ygUWQ3lwcmVzcyBieSB0ZXN0ZXIgdGFsaw%3D%3D
+  - button "Action menu"
+  - text: 1K views •1 year ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - tooltip "tooltip"
+  - text: "Cypress #16 Xpath in Cypress Web Automation Testing | Cypress Tutorial Full Course 2023 | Learn Cypress in 5 Hrs | #cypress ..."
+  - tooltip "tooltip"
+  - heading "API Testing by Testers Talk☑️" [level=3]:
+    - link "API Testing by Testers Talk☑️":
+      - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "API Testing Postman Tutorial Full Course 2024 · 2:43:38":
+    - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5
+  - link "REST Assured API Testing Tutorial Crash Course 2024 · 4:06:41":
+    - /url: /watch?v=o9KJhGHl49M&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5
+  - 'heading "Cypress #8 Run Test on Chrome, Edge & Firefox Browsers" [level=3]':
+    - 'link "Cypress #8 Run Test on Chrome, Edge & Firefox Browsers"':
+      - /url: /watch?v=ELyoLDDfBbw&pp=ygUWQ3lwcmVzcyBieSB0ZXN0ZXIgdGFsa9IHCQmECQGHKiGM7w%3D%3D
+  - button "Action menu"
+  - text: 1.7K views •1 year ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - tooltip "tooltip"
+  - text: "Cypress #8 Run Test on Chrome, Edge & Firefox Browsers | Cypress Tutorial Full Course 2023 | Learn Cypress in 5 Hrs ..."
+  - tooltip "tooltip"
+  - heading "Cypress Automation Testing Part02 | Cypress Tutorial | Cypress Testing with JavaScript" [level=3]:
+    - link "Cypress Automation Testing Part02 | Cypress Tutorial | Cypress Testing with JavaScript":
+      - /url: /watch?v=qa2zygrqV40&pp=ygUWQ3lwcmVzcyBieSB0ZXN0ZXIgdGFsaw%3D%3D
+  - button "Action menu"
+  - text: 1K views •1 year ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - tooltip "tooltip"
+  - text: "Cypress Tutorial | Cypress Automation | #cypress #cypresstutorial #tutorial Cypress Automation Testing End to End Web ..."
+  - tooltip "tooltip"
+  - text: 10 chapters
+  - button "Cypress Automation | Disable FETCH and XHR logs in cypress | Intellisense auto code completion in cypress | Assertions in Cypress | Selectors in Cypress | Xpath in Cypress | Run cypress test from VS code | Handle dropdwon in cypress | iframes in cypress | How to scroll down up in cypress"
+  - button "More"
+  - heading "Postman by Testers Talk☑️" [level=3]:
+    - link "Postman by Testers Talk☑️":
+      - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THGcgNP3_Ocb_I_l4ITai5QT
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "API Testing Postman Tutorial Full Course 2024 · 2:43:38":
+    - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THGcgNP3_Ocb_I_l4ITai5QT&pp=0gcJCRIBOCosWNin
+  - link "Postman API Testing Tutorial Chapter-01 | Postman API Testing Tutorial for Beginners · 34:11":
+    - /url: /watch?v=Yi2J-AJiFMs&list=PLUeDIlio4THGcgNP3_Ocb_I_l4ITai5QT
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THGcgNP3_Ocb_I_l4ITai5QT
+  - 'heading "Cypress #1 What is Cypress? Advantages & Limitations of Cypress" [level=3]':
+    - 'link "Cypress #1 What is Cypress? Advantages & Limitations of Cypress"':
+      - /url: /watch?v=6eaWRdpd-RQ&pp=ygUWQ3lwcmVzcyBieSB0ZXN0ZXIgdGFsaw%3D%3D
+  - button "Action menu"
+  - text: 1.3K views •1 year ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - tooltip "tooltip"
+  - text: "Cypress #1 What is Cypress? Advantages & Limitations of Cypress | Cypress Tutorial Full Course 2023 | Learn Cypress in 5 Hrs ..."
+  - tooltip "tooltip"
+  - heading "Cypress GitHub Repository E2E Testing" [level=3]:
+    - link "Cypress GitHub Repository E2E Testing":
+      - /url: /watch?v=Eilrdx99t60&pp=ygUWQ3lwcmVzcyBieSB0ZXN0ZXIgdGFsaw%3D%3D
+  - button "Action menu"
+  - text: 2.1K views •1 year ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - tooltip "tooltip"
+  - text: "Cypress GitHub Repository | Cypress Tutorial Full Course 2023 | Learn Cypress in 5 Hrs | #cypress #cypresstutorial #tutorial ..."
+  - tooltip "tooltip"
+  - 'heading "Cypress #14 Assertions in Cypress Automation Testing" [level=3]':
+    - 'link "Cypress #14 Assertions in Cypress Automation Testing"':
+      - /url: /watch?v=-NTp4pGNSmg&pp=ygUWQ3lwcmVzcyBieSB0ZXN0ZXIgdGFsaw%3D%3D
+  - button "Action menu"
+  - text: 1.4K views •1 year ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - tooltip "tooltip"
+  - text: "Cypress #14 Assertions in Cypress Automation Testing | Cypress Tutorial Full Course 2023 | Learn Cypress in 5 Hrs | #cypress ..."
+  - tooltip "tooltip"
+  - 'heading "Cypress #9 Run Test in Headless Mode in Cypress" [level=3]':
+    - 'link "Cypress #9 Run Test in Headless Mode in Cypress"':
+      - /url: /watch?v=U4swot55-6M&pp=ygUWQ3lwcmVzcyBieSB0ZXN0ZXIgdGFsaw%3D%3D
+  - button "Action menu"
+  - text: 814 views •1 year ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - tooltip "tooltip"
+  - text: "Cypress #9 Run Test in Headless Mode in Cypress | Cypress Tutorial Full Course 2023 | Learn Cypress in 5 Hrs | #cypress ..."
+  - tooltip "tooltip"
+  - heading "Cypress Automation Testing Part03 | Cypress Tutorial | Cypress Testing with JavaScript" [level=3]:
+    - link "Cypress Automation Testing Part03 | Cypress Tutorial | Cypress Testing with JavaScript":
+      - /url: /watch?v=Df8CXzhG6Vk&pp=ygUWQ3lwcmVzcyBieSB0ZXN0ZXIgdGFsaw%3D%3D
+  - button "Action menu"
+  - text: 480 views •1 year ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - tooltip "tooltip"
+  - text: "Cypress Tutorial | Cypress Automation | #cypress #cypresstutorial #tutorial Cypress Automation Testing End to End Web ..."
+  - tooltip "tooltip"
+  - text: 8 chapters
+  - button "Cypress Automation | Implement hooks in cypress | How to skip a test in cypress | Repeat test in cypress | Retry Rerun test in cypress | Generate HTML report in cypress | Run multiple spec files in cypress | Group test and execute test in cypress"
+  - button "More"
+  - heading "Learn Cypress in 3 Hours | Full Cypress Tutorial | Cypress Automation" [level=3]:
+    - link "Learn Cypress in 3 Hours | Full Cypress Tutorial | Cypress Automation":
+      - /url: /watch?v=oJV5whmzfZI&list=PLUeDIlio4THH_fGwBiFk79BCktNLVKzHm
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "Cypress Tutorial Full Course | Cypress Automation | Learn Cypress in 5 Hrs · 5:04:18":
+    - /url: /watch?v=oJV5whmzfZI&list=PLUeDIlio4THH_fGwBiFk79BCktNLVKzHm&pp=0gcJCRIBOCosWNin
+  - link "Cypress GitHub Repository E2E Testing · 0:43":
+    - /url: /watch?v=Eilrdx99t60&list=PLUeDIlio4THH_fGwBiFk79BCktNLVKzHm
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THH_fGwBiFk79BCktNLVKzHm
+  - 'heading "Cypress #22 Hooks in Cypress Automation Testing" [level=3]':
+    - 'link "Cypress #22 Hooks in Cypress Automation Testing"':
+      - /url: /watch?v=uupWzXHa_GA&pp=ygUWQ3lwcmVzcyBieSB0ZXN0ZXIgdGFsaw%3D%3D
+  - button "Action menu"
+  - text: 527 views •1 year ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - tooltip "tooltip"
+  - text: "Cypress #22 Hooks in Cypress Automation Testing | Cypress Tutorial Full Course 2023 | Learn Cypress in 5 Hrs | #cypress ..."
+  - tooltip "tooltip"
+  - heading "Rest Assured by Testers Talk☑️" [level=3]:
+    - link "Rest Assured by Testers Talk☑️":
+      - /url: /watch?v=-HJjbich0dQ&list=PLUeDIlio4THGL7lQXQwxsV9re_i0U2b0Q
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "REST Assured API Testing Full Course Overview · 4:13":
+    - /url: /watch?v=-HJjbich0dQ&list=PLUeDIlio4THGL7lQXQwxsV9re_i0U2b0Q
+  - link "Rest Assured API Automation Framework GitHub Repository · 0:51":
+    - /url: /watch?v=vHgjTkSn778&list=PLUeDIlio4THGL7lQXQwxsV9re_i0U2b0Q&pp=0gcJCRIBOCosWNin
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THGL7lQXQwxsV9re_i0U2b0Q
+```
+
+# Test source
+
+```ts
+   1 | import { test ,expect } from '@playwright/test';
+   2 |
+   3 | const data = ['Cypress by tester talk','Playwright by tester talk','API testing by tester talk']
+   4 |
+   5 |
+   6 | for(const search of data){
+   7 |
+   8 | test(`Parameterized Test of text ${search}`, async ({ page }) => {
+   9 |
+  10 |    await page.goto('https://www.youtube.com/');
+  11 |    await page.getByRole('combobox', { name: 'Search' }).click();
+  12 |    await page.getByRole('combobox', { name: 'Search' }).press('CapsLock');
+  13 |    await page.getByRole('combobox', { name: 'Search' }).fill('C');
+  14 |    await page.getByRole('combobox', { name: 'Search' }).press('CapsLock');
+  15 |    await page.getByRole('combobox', { name: 'Search' }).fill(search);
+  16 |    await page.getByRole('button', { name: 'Search', exact: true }).click();
+> 17 |    await expect(page.getByRole('link', { name: search })).toBeVisible();
+     |                                                           ^ Error: Timed out 5000ms waiting for expect(locator).toBeVisible()
+  18 |    await expect(page.getByRole('link', { name: search })).toBeVisible();
+  19 |
+  20 |
+  21 | })
+  22 |
+  23 | }
+```

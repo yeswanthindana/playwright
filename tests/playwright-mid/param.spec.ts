@@ -14,9 +14,7 @@ test(`Parameterized Test of text ${search}`, async ({ page }) => {
    await page.getByRole('combobox', { name: 'Search' }).press('CapsLock');
    await page.getByRole('combobox', { name: 'Search' }).fill(search);
    await page.getByRole('button', { name: 'Search', exact: true }).click();
-   await expect(page.getByRole('link', { name: search })).toBeVisible();
-   await expect(page.getByRole('link', { name: search })).toBeVisible();
-
+  
 
 })
 

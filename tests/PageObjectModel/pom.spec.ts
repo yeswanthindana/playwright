@@ -6,7 +6,13 @@ import { PlaylistPage } from '../../src/pages/playlistpage';
 
 test('Page Object Model in playwright', async({page})=>
 {
+    console.log('Running test with Page Object Model in Playwright');
+ await page.setViewportSize({
+    width: 1280,
+    height: 720,
 
+ 
+ })
  const hp = new HomePage(page);
  await hp.goToURL();
  await hp.searchWithKeyword(`${process.env.keyword}`);
