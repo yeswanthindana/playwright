@@ -1,0 +1,183 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\indan\\OneDrive\\Documents\\Playwright2\\playwright.config.ts",
+    "rootDir": "C:/Users/indan/OneDrive/Documents/Playwright2/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "JSON/jsonrep.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "JUNIT/junit.xml"
+        }
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "dot",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/indan/OneDrive/Documents/Playwright2/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "Google Chrome",
+        "name": "Google Chrome",
+        "testDir": "C:/Users/indan/OneDrive/Documents/Playwright2/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "3way",
+    "version": "1.52.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "playwright-basics\\myfirst.spec.ts",
+      "file": "playwright-basics/myfirst.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "My First Test",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "timedOut",
+                  "duration": 32240,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\Users\\indan\\OneDrive\\Documents\\Playwright2\\tests\\playwright-basics\\myfirst.spec.ts",
+                        "column": 68,
+                        "line": 14
+                      },
+                      "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Google Search' })\u001b[22m\n\u001b[2m    - locator resolved to <input name=\"btnK\" tabindex=\"0\" role=\"button\" type=\"submit\" class=\"gNO89b\" value=\"Google Search\" aria-label=\"Google Search\" data-ved=\"0ahUKEwi4u9LmxfiMAxWjh1YBHcvnKxgQ4dUDCBI\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <span>…</span> from <div jsname=\"UUbT9\" class=\"UUbT9 EyBRub\" jscontroller=\"Dvn7fe\" data-ved=\"0ahUKEwi4u9LmxfiMAxWjh1YBHcvnKxgQ4tUDCAo\" jsaction=\"mouseout:ItzDCd;mouseleave:MWfikb;hBEIVb:nUZ9le;YMFC3:VKssTb;ldyIye:CmVOgc\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <span>…</span> from <div jsname=\"UUbT9\" class=\"UUbT9 EyBRub\" jscontroller=\"Dvn7fe\" data-ved=\"0ahUKEwi4u9LmxfiMAxWjh1YBHcvnKxgQ4tUDCAo\" jsaction=\"mouseout:ItzDCd;mouseleave:MWfikb;hBEIVb:nUZ9le;YMFC3:VKssTb;ldyIye:CmVOgc\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    52 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <span>…</span> from <div jsname=\"UUbT9\" class=\"UUbT9 EyBRub\" jscontroller=\"Dvn7fe\" data-ved=\"0ahUKEwi4u9LmxfiMAxWjh1YBHcvnKxgQ4tUDCAo\" jsaction=\"mouseout:ItzDCd;mouseleave:MWfikb;hBEIVb:nUZ9le;YMFC3:VKssTb;ldyIye:CmVOgc\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n\n\u001b[0m \u001b[90m 12 |\u001b[39m         {\n \u001b[90m 13 |\u001b[39m          \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'combobox'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Search'\u001b[39m })\u001b[33m.\u001b[39mfill(\u001b[32m'Playwright'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m          \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Google Search'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m          \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Playwright: Fast and reliable'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m   \n \u001b[90m 16 |\u001b[39m             \n \u001b[90m 17 |\u001b[39m         })\u001b[0m\n\u001b[2m    at C:\\Users\\indan\\OneDrive\\Documents\\Playwright2\\tests\\playwright-basics\\myfirst.spec.ts:14:68\u001b[22m\n\u001b[2m    at C:\\Users\\indan\\OneDrive\\Documents\\Playwright2\\tests\\playwright-basics\\myfirst.spec.ts:11:5\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "open google",
+                      "duration": 1626
+                    },
+                    {
+                      "title": "Enter search term",
+                      "duration": 28191,
+                      "error": {
+                        "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Google Search' })\u001b[22m\n\u001b[2m    - locator resolved to <input name=\"btnK\" tabindex=\"0\" role=\"button\" type=\"submit\" class=\"gNO89b\" value=\"Google Search\" aria-label=\"Google Search\" data-ved=\"0ahUKEwi4u9LmxfiMAxWjh1YBHcvnKxgQ4dUDCBI\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <span>…</span> from <div jsname=\"UUbT9\" class=\"UUbT9 EyBRub\" jscontroller=\"Dvn7fe\" data-ved=\"0ahUKEwi4u9LmxfiMAxWjh1YBHcvnKxgQ4tUDCAo\" jsaction=\"mouseout:ItzDCd;mouseleave:MWfikb;hBEIVb:nUZ9le;YMFC3:VKssTb;ldyIye:CmVOgc\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <span>…</span> from <div jsname=\"UUbT9\" class=\"UUbT9 EyBRub\" jscontroller=\"Dvn7fe\" data-ved=\"0ahUKEwi4u9LmxfiMAxWjh1YBHcvnKxgQ4tUDCAo\" jsaction=\"mouseout:ItzDCd;mouseleave:MWfikb;hBEIVb:nUZ9le;YMFC3:VKssTb;ldyIye:CmVOgc\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    52 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <span>…</span> from <div jsname=\"UUbT9\" class=\"UUbT9 EyBRub\" jscontroller=\"Dvn7fe\" data-ved=\"0ahUKEwi4u9LmxfiMAxWjh1YBHcvnKxgQ4tUDCAo\" jsaction=\"mouseout:ItzDCd;mouseleave:MWfikb;hBEIVb:nUZ9le;YMFC3:VKssTb;ldyIye:CmVOgc\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
+                        "stack": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Google Search' })\u001b[22m\n\u001b[2m    - locator resolved to <input name=\"btnK\" tabindex=\"0\" role=\"button\" type=\"submit\" class=\"gNO89b\" value=\"Google Search\" aria-label=\"Google Search\" data-ved=\"0ahUKEwi4u9LmxfiMAxWjh1YBHcvnKxgQ4dUDCBI\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <span>…</span> from <div jsname=\"UUbT9\" class=\"UUbT9 EyBRub\" jscontroller=\"Dvn7fe\" data-ved=\"0ahUKEwi4u9LmxfiMAxWjh1YBHcvnKxgQ4tUDCAo\" jsaction=\"mouseout:ItzDCd;mouseleave:MWfikb;hBEIVb:nUZ9le;YMFC3:VKssTb;ldyIye:CmVOgc\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <span>…</span> from <div jsname=\"UUbT9\" class=\"UUbT9 EyBRub\" jscontroller=\"Dvn7fe\" data-ved=\"0ahUKEwi4u9LmxfiMAxWjh1YBHcvnKxgQ4tUDCAo\" jsaction=\"mouseout:ItzDCd;mouseleave:MWfikb;hBEIVb:nUZ9le;YMFC3:VKssTb;ldyIye:CmVOgc\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    52 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <span>…</span> from <div jsname=\"UUbT9\" class=\"UUbT9 EyBRub\" jscontroller=\"Dvn7fe\" data-ved=\"0ahUKEwi4u9LmxfiMAxWjh1YBHcvnKxgQ4tUDCAo\" jsaction=\"mouseout:ItzDCd;mouseleave:MWfikb;hBEIVb:nUZ9le;YMFC3:VKssTb;ldyIye:CmVOgc\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at C:\\Users\\indan\\OneDrive\\Documents\\Playwright2\\tests\\playwright-basics\\myfirst.spec.ts:14:68\n    at C:\\Users\\indan\\OneDrive\\Documents\\Playwright2\\tests\\playwright-basics\\myfirst.spec.ts:11:5",
+                        "location": {
+                          "file": "C:\\Users\\indan\\OneDrive\\Documents\\Playwright2\\tests\\playwright-basics\\myfirst.spec.ts",
+                          "column": 68,
+                          "line": 14
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 12 |\u001b[39m         {\n \u001b[90m 13 |\u001b[39m          \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'combobox'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Search'\u001b[39m })\u001b[33m.\u001b[39mfill(\u001b[32m'Playwright'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m          \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Google Search'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m          \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Playwright: Fast and reliable'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m   \n \u001b[90m 16 |\u001b[39m             \n \u001b[90m 17 |\u001b[39m         })\u001b[0m"
+                      }
+                    }
+                  ],
+                  "startTime": "2025-04-27T15:38:42.922Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\indan\\OneDrive\\Documents\\Playwright2\\test-results\\playwright-basics-myfirst-My-First-Test-Google-Chrome\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\indan\\OneDrive\\Documents\\Playwright2\\test-results\\playwright-basics-myfirst-My-First-Test-Google-Chrome\\video.webm"
+                    },
+                    {
+                      "name": "_error-context-1",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\indan\\OneDrive\\Documents\\Playwright2\\test-results\\playwright-basics-myfirst-My-First-Test-Google-Chrome\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\indan\\OneDrive\\Documents\\Playwright2\\test-results\\playwright-basics-myfirst-My-First-Test-Google-Chrome\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "48e4a677f4f2e123cb5b-cf600b5132297db24554",
+          "file": "playwright-basics/myfirst.spec.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-04-27T15:38:41.254Z",
+    "duration": 34825.66,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

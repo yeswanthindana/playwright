@@ -1,0 +1,79 @@
+<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="34.825660000000006">
+<testsuite name="playwright-basics\myfirst.spec.ts" timestamp="2025-04-27T15:38:42.148Z" hostname="Google Chrome" tests="1" failures="1" skipped="0" time="32.24" errors="0">
+<testcase name="My First Test" classname="playwright-basics\myfirst.spec.ts" time="32.24">
+<failure message="myfirst.spec.ts:4:5 My First Test" type="FAILURE">
+<![CDATA[  [Google Chrome] › playwright-basics\myfirst.spec.ts:4:5 › My First Test › Enter search term ──────
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'Google Search' })
+        - locator resolved to <input name="btnK" tabindex="0" role="button" type="submit" class="gNO89b" value="Google Search" aria-label="Google Search" data-ved="0ahUKEwi4u9LmxfiMAxWjh1YBHcvnKxgQ4dUDCBI"/>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <span>…</span> from <div jsname="UUbT9" class="UUbT9 EyBRub" jscontroller="Dvn7fe" data-ved="0ahUKEwi4u9LmxfiMAxWjh1YBHcvnKxgQ4tUDCAo" jsaction="mouseout:ItzDCd;mouseleave:MWfikb;hBEIVb:nUZ9le;YMFC3:VKssTb;ldyIye:CmVOgc">…</div> subtree intercepts pointer events
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <span>…</span> from <div jsname="UUbT9" class="UUbT9 EyBRub" jscontroller="Dvn7fe" data-ved="0ahUKEwi4u9LmxfiMAxWjh1YBHcvnKxgQ4tUDCAo" jsaction="mouseout:ItzDCd;mouseleave:MWfikb;hBEIVb:nUZ9le;YMFC3:VKssTb;ldyIye:CmVOgc">…</div> subtree intercepts pointer events
+        - retrying click action
+          - waiting 100ms
+        52 × waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <span>…</span> from <div jsname="UUbT9" class="UUbT9 EyBRub" jscontroller="Dvn7fe" data-ved="0ahUKEwi4u9LmxfiMAxWjh1YBHcvnKxgQ4tUDCAo" jsaction="mouseout:ItzDCd;mouseleave:MWfikb;hBEIVb:nUZ9le;YMFC3:VKssTb;ldyIye:CmVOgc">…</div> subtree intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+
+
+      12 |         {
+      13 |          await page.getByRole('combobox', { name: 'Search' }).fill('Playwright');
+    > 14 |          await page.getByRole('button', { name: 'Google Search' }).click();
+         |                                                                    ^
+      15 |          await page.getByRole('link', { name: 'Playwright: Fast and reliable' }).click();   
+      16 |             
+      17 |         })
+        at C:\Users\indan\OneDrive\Documents\Playwright2\tests\playwright-basics\myfirst.spec.ts:14:68
+        at C:\Users\indan\OneDrive\Documents\Playwright2\tests\playwright-basics\myfirst.spec.ts:11:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\playwright-basics-myfirst-My-First-Test-Google-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\playwright-basics-myfirst-My-First-Test-Google-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\playwright-basics-myfirst-My-First-Test-Google-Chrome\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\playwright-basics-myfirst-My-First-Test-Google-Chrome\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\playwright-basics-myfirst-My-First-Test-Google-Chrome\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\playwright-basics-myfirst-My-First-Test-Google-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\playwright-basics-myfirst-My-First-Test-Google-Chrome\video.webm]]
+
+[[ATTACHMENT|..\test-results\playwright-basics-myfirst-My-First-Test-Google-Chrome\error-context.md]]
+
+[[ATTACHMENT|..\test-results\playwright-basics-myfirst-My-First-Test-Google-Chrome\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

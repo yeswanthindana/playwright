@@ -1,0 +1,38 @@
+# Test info
+
+- Name: Page Object Model in playwright
+- Location: C:\Users\indan\OneDrive\Documents\Playwright2\tests\PageObjectModel\pom.spec.ts:7:5
+
+# Error details
+
+```
+Error: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for getByRole('link', { name: 'undefined' }).first()
+
+    at ResultPage.clickOnPlaylist (C:\Users\indan\OneDrive\Documents\Playwright2\src\pages\resultpage.ts:15:67)
+    at C:\Users\indan\OneDrive\Documents\Playwright2\tests\PageObjectModel\pom.spec.ts:15:11
+```
+
+# Test source
+
+```ts
+   1 | import { Locator, Page } from "@playwright/test";
+   2 |
+   3 | export class ResultPage {
+   4 |
+   5 |     readonly page: Page;
+   6 |
+   7 |     constructor(page: Page) {
+   8 |         this.page = page;
+   9 |
+  10 |         // Elements
+  11 |     }
+  12 |
+  13 |     // Methods
+  14 |     async clickOnPlaylist(link: string) {
+> 15 |         await this.page.getByRole('link', { name: link }).first().click();
+     |                                                                   ^ Error: locator.click: Target page, context or browser has been closed
+  16 |     }
+  17 | }
+```
