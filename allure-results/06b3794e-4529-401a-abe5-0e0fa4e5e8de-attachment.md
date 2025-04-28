@@ -1,0 +1,534 @@
+# Test info
+
+- Name: test Data Driven using JSON : Karate
+- Location: C:\Users\indan\OneDrive\Documents\Playwright2\tests\playwright-adv-datadriven\datadriven_xl.spec.ts:11:9
+
+# Error details
+
+```
+Error: Timed out 5000ms waiting for expect(locator).toContainText(expected)
+
+Locator: locator('#channel-title')
+Expected string: "Karate"
+Received: <element(s) not found>
+Call log:
+  - expect.toContainText with timeout 5000ms
+  - waiting for locator('#channel-title')
+
+    at C:\Users\indan\OneDrive\Documents\Playwright2\tests\playwright-adv-datadriven\datadriven_xl.spec.ts:16:54
+```
+
+# Page snapshot
+
+```yaml
+- dialog
+- banner:
+  - button "Guide"
+  - link "YouTube Home":
+    - /url: /
+  - text: IN
+  - button "Skip navigation"
+  - search:
+    - combobox "Search" [expanded]: Karate
+    - button "Clear search query"
+    - button "Search"
+  - button "Search with your voice"
+  - tooltip "tooltip"
+  - button "Settings"
+  - link "Sign in":
+    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253DKarate&hl=en&ec=65620
+- navigation:
+  - tab "Home":
+    - link "Home":
+      - /url: /
+  - tab "Shorts"
+  - tab "Subscriptions":
+    - link "Subscriptions":
+      - /url: /feed/subscriptions
+  - tab "You":
+    - link "You":
+      - /url: /feed/you
+  - tab "History":
+    - link "History":
+      - /url: /feed/history
+- main:
+  - tablist:
+    - tab "All" [selected]
+    - tab "Shorts"
+    - tab "Videos"
+    - tab "Unwatched"
+    - tab "Watched"
+    - tab "Recently uploaded"
+    - tab "Live"
+    - tab "Punch"
+    - tab "Kaise sikhe"
+    - tab "Kick"
+    - tab "Tricks"
+    - tab "Roblox"
+    - tab "Kids"
+    - tab "Kicks"
+    - tab "Training black belt"
+    - tab "Belts"
+    - tab "Kata 1"
+    - tab "Class girls"
+    - tab "Malayalam"
+  - button "Next"
+  - button "Search filters": Filters
+  - tooltip "tooltip"
+  - heading "Shorts" [level=2]
+  - button "More actions"
+  - link:
+    - /url: /shorts/ryZQCrZRpcQ
+  - 'heading "First Day Karate🥋😅 #shorts #karate, 41 million views - play Short" [level=3]':
+    - 'link "First Day Karate🥋😅 #shorts #karate"':
+      - /url: /shorts/ryZQCrZRpcQ
+  - button "More actions"
+  - link:
+    - /url: /shorts/aKSwGw2OD9U
+  - heading "Karate One Inch Punch Tutorial!, 4.5 million views - play Short" [level=3]:
+    - link "Karate One Inch Punch Tutorial!":
+      - /url: /shorts/aKSwGw2OD9U
+  - button "More actions"
+  - link:
+    - /url: /shorts/xyKzEo6k9dA
+  - 'heading "Champ Of Champ KUMITE FIGHT (Semi final) #karate #kumite #coc #karatefight #nagpur #shorts, 605K views - play Short" [level=3]':
+    - 'link "Champ Of Champ KUMITE FIGHT (Semi final) #karate #kumite #coc #karatefight #nagpur #shorts"':
+      - /url: /shorts/xyKzEo6k9dA
+  - button "More actions"
+  - link:
+    - /url: /shorts/BMYD8WB-nvE
+  - 'heading "KARATE FIGHT | KUMITE | KARATE TOURNAMENT | NATIONAL | #viral #karate #trending #fighting #yt, 821K views - play Short" [level=3]':
+    - 'link "KARATE FIGHT | KUMITE | KARATE TOURNAMENT | NATIONAL | #viral #karate #trending #fighting #yt"':
+      - /url: /shorts/BMYD8WB-nvE
+  - button "More actions"
+  - link:
+    - /url: /shorts/cB-8OgVCKWw
+  - 'heading "girls fight | Girl''s kumite | karate event | superb point | #shorts, 4 million views - play Short" [level=3]':
+    - 'link "girls fight | Girl''s kumite | karate event | superb point | #shorts"':
+      - /url: /shorts/cB-8OgVCKWw
+  - button "More actions"
+  - link:
+    - /url: /shorts/DriLW6ebKfE
+  - 'heading "Little Karate Girls Under 5 Years Practicing Karate At IBSKA #ibska #shotokan #ktr, 380K views - play Short" [level=3]':
+    - 'link "Little Karate Girls Under 5 Years Practicing Karate At IBSKA #ibska #shotokan #ktr"':
+      - /url: /shorts/DriLW6ebKfE
+  - button "More actions"
+  - button "Next"
+  - heading "What everyone THINKS karate is… by Nat Hearn 1,759,793 views 3 months ago 26 seconds - play Short" [level=3]:
+    - link "What everyone THINKS karate is… by Nat Hearn 1,759,793 views 3 months ago 26 seconds - play Short":
+      - /url: /shorts/W53p8HmSMeA
+      - text: What everyone THINKS karate is…
+  - button "Action menu"
+  - text: 1.7M views •3 months ago
+  - link "Go to channel":
+    - /url: /@nathearn
+  - link "Nat Hearn":
+    - /url: /@nathearn
+  - tooltip "tooltip"
+  - heading "Rajkot Gujarat Karate Class Training Join Now 9913664949" [level=3]:
+    - link "Rajkot Gujarat Karate Class Training Join Now 9913664949":
+      - /url: /watch?v=enjCAOAnxgM&pp=ygUGS2FyYXRl
+  - button "Action menu"
+  - text: 290K views •2 years ago
+  - link "Go to channel":
+    - /url: /@coachmaheshjalu7878
+  - link "Mahesh Jalu":
+    - /url: /@coachmaheshjalu7878
+  - tooltip "tooltip"
+  - text: Join Us Now Call :- 9913664949 Whatsapp :- 9913664949 Mail :- maheshjalu1111@gmail.com Follow Me on Instagram ...
+  - tooltip "tooltip"
+  - link "Hot Platformer Games":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CeayEnD0PaN9h0fe_-A_asKCwCZ-QzNR-2sKquaUTZBABIABg5YLkg5gOggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAb-X3cQqqQJslIYhM02BPqgDBMgDCqoEjgJP0LsCI0iWHQLfbziIuhjuiK_Fp1XvfyB5Ay_WvleFH0cEPicrP23oXNPciUyvAAxPCN3cGTEyk5HoK5qIy_opnoztk-o2uCBq7OaoIJcjes8AuxbFHH5fplQEHQGSn551nJPm8Fh-hWGFffdVWE5nouiqWQaWnjslauMjNEJPFx_BrvcbRMwLkWWsvvYOwmjn3p57CWD4aikcTLfowAIoOqOaFvjeOKq9_KiqLx_TdBByTiB-hgkQI4h24PiN1KcHZA5CxiDYZunBKJho50U6_h464dKI-4TSstboBnvjrg7t16Z_u4ZirkA8ly_jlXN5CFsrWEr0sGZBN8PzIRAunnEXE35J3YtRKAyLg4iSBQgIE3js37vYBaAGboAHv8-tpAWQBwSoB_mxsQKoB4C6sQKoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB73NsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB4KqsQKoB4QIqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB-a8sQKoB8q6sQKoB_zLsQKoB_2ysQKoB_e4sQKoB_i4sQKoB83HsQKoB6XMsQKoB4HGG6gH_K-xAqgHq8UbqAe3obECqAfVqbECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbEC0ggpCIBBEAEYXjICggI6DIBCgMCAgICAgIACIkjZoNI1UBRYkIzX7qj6jAOaCSRodHRwczovL3d3dy5lbmpveXNnYW1lLmNvbS9leHRlbnNpb26xCf9FPScdOjuwyAkAyAmKApgLAboLNQgDEAUYBCAIKAEwBUABSABYTmAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIG0AsS2gwmCgsQkKmKvOuZqdLBARICAQMaDRi9srDlUCDIvYi5iAVAAUoCEB-aDQESoA0Bqg0CSU7IDQHSDTFodHRwczovL3d3dy5lbmpveXNnYW1lLmNvbS9leHRlbnNpb24_Z2FkX3NvdXJjZT0yuBP___________8BsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRfTkBA7bSkAa7oXBigAMAA4AdAYAfAYAQ&ase=2&gclid=EAIaIQobChMI35_X7qj6jAMV0fsPCR1aGAiWEAEYASAAEgI87PD_BwE&num=1&cid=CAASFeRooqM2txtY1H3wQ5kPpdD_67fL9A&sig=AOD64_2NRX-SkH7OsoYzwln9MVDujSrc8w&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - link "Enjoy the Ultimate Gaming Experience with Others of Your Age":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CeayEnD0PaN9h0fe_-A_asKCwCZ-QzNR-2sKquaUTZBABIABg5YLkg5gOggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAb-X3cQqqQJslIYhM02BPqgDBMgDCqoEjgJP0LsCI0iWHQLfbziIuhjuiK_Fp1XvfyB5Ay_WvleFH0cEPicrP23oXNPciUyvAAxPCN3cGTEyk5HoK5qIy_opnoztk-o2uCBq7OaoIJcjes8AuxbFHH5fplQEHQGSn551nJPm8Fh-hWGFffdVWE5nouiqWQaWnjslauMjNEJPFx_BrvcbRMwLkWWsvvYOwmjn3p57CWD4aikcTLfowAIoOqOaFvjeOKq9_KiqLx_TdBByTiB-hgkQI4h24PiN1KcHZA5CxiDYZunBKJho50U6_h464dKI-4TSstboBnvjrg7t16Z_u4ZirkA8ly_jlXN5CFsrWEr0sGZBN8PzIRAunnEXE35J3YtRKAyLg4iSBQgIE3js37vYBaAGboAHv8-tpAWQBwSoB_mxsQKoB4C6sQKoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB73NsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB4KqsQKoB4QIqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB-a8sQKoB8q6sQKoB_zLsQKoB_2ysQKoB_e4sQKoB_i4sQKoB83HsQKoB6XMsQKoB4HGG6gH_K-xAqgHq8UbqAe3obECqAfVqbECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbEC0ggpCIBBEAEYXjICggI6DIBCgMCAgICAgIACIkjZoNI1UBRYkIzX7qj6jAOaCSRodHRwczovL3d3dy5lbmpveXNnYW1lLmNvbS9leHRlbnNpb26xCf9FPScdOjuwyAkAyAmKApgLAboLNQgDEAUYBCAIKAEwBUABSABYTmAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIG0AsS2gwmCgsQkKmKvOuZqdLBARICAQMaDRi9srDlUCDIvYi5iAVAAUoCEB-aDQESoA0Bqg0CSU7IDQHSDTFodHRwczovL3d3dy5lbmpveXNnYW1lLmNvbS9leHRlbnNpb24_Z2FkX3NvdXJjZT0yuBP___________8BsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRfTkBA7bSkAa7oXBigAMAA4AdAYAfAYAQ&ase=2&gclid=EAIaIQobChMI35_X7qj6jAMV0fsPCR1aGAiWEAEYASAAEgI87PD_BwE&num=1&cid=CAASFeRooqM2txtY1H3wQ5kPpdD_67fL9A&sig=AOD64_2NRX-SkH7OsoYzwln9MVDujSrc8w&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - text: Sponsored · enjoysgame
+  - button "My Ad Center"
+  - heading "The Shaolin master could not bear it any more.Beat the karate champion with a unique skill.#fighting by 小义KungFu 6,009,309 views 1 month ago 12 seconds - play Short" [level=3]:
+    - link "The Shaolin master could not bear it any more.Beat the karate champion with a unique skill.#fighting by 小义KungFu 6,009,309 views 1 month ago 12 seconds - play Short":
+      - /url: /shorts/LwblP0NwGQE
+      - text: The Shaolin master could not bear it any more.Beat the karate champion with a unique skill.#fighting
+  - button "Action menu"
+  - text: 6M views •1 month ago
+  - link "Go to channel":
+    - /url: /@668
+  - link "小义KungFu":
+    - /url: /@668
+  - tooltip "tooltip"
+  - heading "Shorts" [level=2]
+  - button "More actions"
+  - link:
+    - /url: /shorts/DriLW6ebKfE
+  - 'heading "Little Karate Girls Under 5 Years Practicing Karate At IBSKA #ibska #shotokan #ktr, 380K views - play Short" [level=3]':
+    - 'link "Little Karate Girls Under 5 Years Practicing Karate At IBSKA #ibska #shotokan #ktr"':
+      - /url: /shorts/DriLW6ebKfE
+  - button "More actions"
+  - link:
+    - /url: /shorts/L9B676h-6uA
+  - 'heading "Karate kid😂 #football #funny #viralvideo #trending #shorts, 61 million views - play Short" [level=3]':
+    - 'link "Karate kid😂 #football #funny #viralvideo #trending #shorts"':
+      - /url: /shorts/L9B676h-6uA
+  - button "More actions"
+  - link:
+    - /url: /shorts/7ofKozIMmxQ
+  - 'heading "‼️Try this confuse kick‼️ #tutorial✅ #taekwondo #karate #training #tricks #skills #shorts #ytshorts, 663K views - play Short" [level=3]':
+    - 'link "‼️Try this confuse kick‼️ #tutorial✅ #taekwondo #karate #training #tricks #skills #shorts #ytshorts"':
+      - /url: /shorts/7ofKozIMmxQ
+  - button "More actions"
+  - link:
+    - /url: /shorts/TQRD_y4V-GM
+  - 'heading "wow 😲 amazing headshot 🥋(ippon) #shorts #karate #kumite #headshot #viral, 3.4 million views - play Short" [level=3]':
+    - 'link "wow 😲 amazing headshot 🥋(ippon) #shorts #karate #kumite #headshot #viral"':
+      - /url: /shorts/TQRD_y4V-GM
+  - button "More actions"
+  - link:
+    - /url: /shorts/fsJPcj7GxNw
+  - heading "#KARATE Self-Defence TECHNIQUE🥋#martialarts techniques🔥, 5.5 million views - play Short" [level=3]:
+    - link "#KARATE Self-Defence TECHNIQUE🥋#martialarts techniques🔥":
+      - /url: /shorts/fsJPcj7GxNw
+  - button "More actions"
+  - link:
+    - /url: /shorts/2pH7uSktpA8
+  - heading "Karate Top Kicks#shorts, 9.3 million views - play Short" [level=3]:
+    - link "Karate Top Kicks#shorts":
+      - /url: /shorts/2pH7uSktpA8
+  - button "More actions"
+  - button "Next"
+  - 'heading "Unpredictable Kick🥋🔥 #tutorial #taekwondo #karate #motivation #trick #training #speed #power #shorts by MultiOut 12,762,445 views 8 months ago 25 seconds - play Short" [level=3]':
+    - 'link "Unpredictable Kick🥋🔥 #tutorial #taekwondo #karate #motivation #trick #training #speed #power #shorts by MultiOut 12,762,445 views 8 months ago 25 seconds - play Short"':
+      - /url: /shorts/EoIv2BMfZ5Q
+      - text: "Unpredictable Kick🥋🔥 #tutorial #taekwondo #karate #motivation #trick #training #speed #power #shorts"
+  - button "Action menu"
+  - text: 12M views •8 months ago
+  - link "Go to channel":
+    - /url: /@MultiOut-DivPk
+  - link "MultiOut":
+    - /url: /@MultiOut-DivPk
+  - tooltip "tooltip"
+  - img "Verified":
+    - paragraph
+    - tooltip "tooltip"
+  - img "4K":
+    - paragraph: 4K
+  - heading "Final Kumite Equipos Chile vs Japón | Funakoshi Gichin Cup 16th Karate World Championship Tournament" [level=3]:
+    - link "Final Kumite Equipos Chile vs Japón | Funakoshi Gichin Cup 16th Karate World Championship Tournament":
+      - /url: /watch?v=nEviM45IGSE&pp=ygUGS2FyYXRl0gcJCYQJAYcqIYzv
+  - button "Action menu"
+  - text: 356K views •5 months ago
+  - link "Go to channel":
+    - /url: /@CanalOficialJKAChileKarateTrad
+  - link "Canal Oficial JKA Chile Karate Tradicional":
+    - /url: /@CanalOficialJKAChileKarateTrad
+  - tooltip "tooltip"
+  - text: Final Kumite Equipos. Japón VS Chile. Takasaki Arena Funakoshi Gichin Cup 16 Karate World Championship Tournament.
+  - tooltip "tooltip"
+  - heading "Karate Top Kicks#shorts by Michael_Martial_Arts 9,327,561 views 1 year ago 56 seconds - play Short" [level=3]:
+    - link "Karate Top Kicks#shorts by Michael_Martial_Arts 9,327,561 views 1 year ago 56 seconds - play Short":
+      - /url: /shorts/2pH7uSktpA8
+      - text: Karate Top Kicks#shorts
+  - button "Action menu"
+  - text: 9.3M views •1 year ago
+  - link "Go to channel":
+    - /url: /@michael_martial_arts
+  - link "Michael_Martial_Arts":
+    - /url: /@michael_martial_arts
+  - tooltip "tooltip"
+  - heading "Fist Clenching and Body Strength in Karate! by kuro-obi world 87,729,526 views 9 months ago 16 seconds - play Short" [level=3]:
+    - link "Fist Clenching and Body Strength in Karate! by kuro-obi world 87,729,526 views 9 months ago 16 seconds - play Short":
+      - /url: /shorts/s0HAqM9xCh0
+      - text: Fist Clenching and Body Strength in Karate!
+  - button "Action menu"
+  - text: 87M views •9 months ago
+  - link "Go to channel":
+    - /url: /@kuroobiworld
+  - link "kuro-obi world":
+    - /url: /@kuroobiworld
+  - tooltip "tooltip"
+  - text: Subscribe Naka sensei's Youtube @Karate-doTaishijuku.
+  - tooltip "tooltip"
+  - heading "Just a regular day training karate 😌 | 📹 (TT) shkunov_team karatetechniques by Olympics 9,040,697 views 1 year ago 10 seconds - play Short" [level=3]:
+    - link "Just a regular day training karate 😌 | 📹 (TT) shkunov_team karatetechniques by Olympics 9,040,697 views 1 year ago 10 seconds - play Short":
+      - /url: /shorts/1CSsVimCJIo
+      - text: Just a regular day training karate 😌 | 📹 (TT) shkunov_team karatetechniques
+  - button "Action menu"
+  - text: 9M views •1 year ago
+  - link "Go to channel":
+    - /url: /@Olympics
+  - link "Olympics":
+    - /url: /@Olympics
+  - tooltip "tooltip"
+  - img "Verified":
+    - paragraph
+    - tooltip "tooltip"
+  - heading "Anil Shariatpanahi WKF world karate youth league champion. Vahdatshariatpanahi. آنيل شريعت پناهى by ANIL SHARIATPANAHI 15,285,918 views 9 months ago 22 seconds - play Short" [level=3]:
+    - link "Anil Shariatpanahi WKF world karate youth league champion. Vahdatshariatpanahi. آنيل شريعت پناهى by ANIL SHARIATPANAHI 15,285,918 views 9 months ago 22 seconds - play Short":
+      - /url: /shorts/HiEUt73Wlms
+      - text: Anil Shariatpanahi WKF world karate youth league champion. Vahdatshariatpanahi. آنيل شريعت پناهى
+  - button "Action menu"
+  - text: 15M views •9 months ago
+  - link "Go to channel":
+    - /url: /@anilshariatpanahiofficial
+  - link "ANIL SHARIATPANAHI":
+    - /url: /@anilshariatpanahiofficial
+  - tooltip "tooltip"
+  - text: Anil vahdat Shariatpanahi. WKF world karate federation youth league champion. Armenia karate team. آنيل شريعت پناهى.
+  - tooltip "tooltip"
+  - 'heading "V KARATE INTERNATIONAL #kidsselfdefence #viralvideo #knifedefense #girls #girlsselfdefence #karate by V-Karate Academy 202,284,002 views 2 months ago 17 seconds - play Short" [level=3]':
+    - 'link "V KARATE INTERNATIONAL #kidsselfdefence #viralvideo #knifedefense #girls #girlsselfdefence #karate by V-Karate Academy 202,284,002 views 2 months ago 17 seconds - play Short"':
+      - /url: /shorts/PhbS1OW3TNs
+      - text: "V KARATE INTERNATIONAL #kidsselfdefence #viralvideo #knifedefense #girls #girlsselfdefence #karate"
+  - button "Action menu"
+  - text: 202M views •2 months ago
+  - link "Go to channel":
+    - /url: /@v-karateacademy4498
+  - link "V-Karate Academy":
+    - /url: /@v-karateacademy4498
+  - tooltip "tooltip"
+  - img "Verified":
+    - paragraph
+    - tooltip "tooltip"
+  - heading "Channels new to you" [level=2]
+  - 'heading "KARATE KID: LEGENDS - Official Trailer (HD)" [level=3]':
+    - 'link "KARATE KID: LEGENDS - Official Trailer (HD)"':
+      - /url: /watch?v=uPzOyzsnmio&pp=ygUGS2FyYXRl
+  - button "Action menu"
+  - text: 18M views •4 months ago
+  - link "Go to channel":
+    - /url: /@sonypictures
+  - link "Sony Pictures Entertainment":
+    - /url: /@sonypictures
+  - tooltip "tooltip"
+  - img "Verified":
+    - paragraph
+    - tooltip "tooltip"
+  - text: "Two branches. One tree. Jackie Chan, Ben Wang, and Ralph Macchio star in Karate Kid: Legends - exclusively in movie theatres ..."
+  - tooltip "tooltip"
+  - img "Closed captions":
+    - paragraph: CC
+  - heading "Best KARATE moments of Karate1Cairo (Part 1) | WORLD KARATE FEDERATION" [level=3]:
+    - link "Best KARATE moments of Karate1Cairo (Part 1) | WORLD KARATE FEDERATION":
+      - /url: /watch?v=UKfHQc6E5bU&pp=ygUGS2FyYXRl0gcJCYQJAYcqIYzv
+  - button "Action menu"
+  - text: 37K views •6 days ago
+  - link "Go to channel":
+    - /url: /@WKFKarateWorldChamps
+  - link "World Karate Federation":
+    - /url: /@WKFKarateWorldChamps
+  - tooltip "tooltip"
+  - img "Verified":
+    - paragraph
+    - tooltip "tooltip"
+  - text: The highlights of the 2025 Karate 1-Premier League Cairo are here! Have a look at the first part of the best Karate moments of ...
+  - tooltip "tooltip"
+  - img "New":
+    - paragraph: New
+  - heading "Best KARATE moments of Karate1Cairo (Part 2) | WORLD KARATE FEDERATION" [level=3]:
+    - link "Best KARATE moments of Karate1Cairo (Part 2) | WORLD KARATE FEDERATION":
+      - /url: /watch?v=z6zhICcp7nA&pp=ygUGS2FyYXRl
+  - button "Action menu"
+  - text: 89K views •5 days ago
+  - link "Go to channel":
+    - /url: /@WKFKarateWorldChamps
+  - link "World Karate Federation":
+    - /url: /@WKFKarateWorldChamps
+  - tooltip "tooltip"
+  - img "Verified":
+    - paragraph
+    - tooltip "tooltip"
+  - text: The highlights of the 2025 Karate 1-Premier League Cairo are here! Have a look at the second part of the best Karate moments of ...
+  - tooltip "tooltip"
+  - img "New":
+    - paragraph: New
+  - text: +6 more
+  - heading "What If he shows up in Karate Kid Legends⁉️#thekaratekid#chengluwei#li#karate#cobrakai#cobrakaichop by MiliFly 1,767,922 views 4 weeks ago 24 seconds - play Short" [level=3]:
+    - link "What If he shows up in Karate Kid Legends⁉️#thekaratekid#chengluwei#li#karate#cobrakai#cobrakaichop by MiliFly 1,767,922 views 4 weeks ago 24 seconds - play Short":
+      - /url: /shorts/-yKBhCRgQMs
+      - text: What If he shows up in Karate Kid Legends⁉️#thekaratekid#chengluwei#li#karate#cobrakai#cobrakaichop
+  - button "Action menu"
+  - text: 1.7M views •4 weeks ago
+  - link "Go to channel":
+    - /url: /@MiliFly_
+  - link "MiliFly":
+    - /url: /@MiliFly_
+  - tooltip "tooltip"
+  - img "Verified":
+    - paragraph
+    - tooltip "tooltip"
+  - heading "People also search for" [level=2]
+  - link "Taekwondo":
+    - /url: /results?search_query=Taekwondo&sp=EhiSARUKCC9tLzA3Z3l2KglUYWVrd29uZG94AQ%253D%253D
+  - link "Judo":
+    - /url: /results?search_query=Judo&sp=EhOSARAKCC9tLzAzXzhyKgRKdWRveAE%253D
+  - link "Martial arts":
+    - /url: /results?search_query=Martial+arts&sp=EhuSARgKCC9tLzA0eHN2KgxNYXJ0aWFsIGFydHN4AQ%253D%253D
+  - link "Kung fu":
+    - /url: /results?search_query=Kung+fu&sp=EhaSARMKCC9tLzA0OXN2KgdLdW5nIGZ1eAE%253D
+  - link "Aikido":
+    - /url: /results?search_query=Aikido&sp=EhSSAREKBy9tLzBqamMqBkFpa2lkb3gB
+  - link "Wrestling":
+    - /url: /results?search_query=Wrestling&sp=EhmSARYKCS9tLzAzNnZnNioJV3Jlc3RsaW5neAE%253D
+  - link "jujitsu":
+    - /url: /results?search_query=Jujutsu&sp=EheSARQKCS9tLzAxeDZmbSoHSnVqdXRzdXgB
+  - link "Brazilian jiu-jitsu":
+    - /url: /results?search_query=Brazilian+jiu-jitsu&sp=EiOSASAKCS9tLzAxZGRiNCoTQnJhemlsaWFuIGppdS1qaXRzdXgB
+  - link "Baseball":
+    - /url: /results?search_query=Baseball&sp=EheSARQKCC9tLzAxOGp6KghCYXNlYmFsbHgB
+  - link "Kickboxing":
+    - /url: /results?search_query=Kickboxing&sp=EhmSARYKCC9tLzA0OGZnKgpLaWNrYm94aW5neAE%253D
+  - button
+  - 'heading "Martial Arts fight training #shorts #karate by My Trainer Omkar 6,175,817 views 1 year ago 6 seconds - play Short" [level=3]':
+    - 'link "Martial Arts fight training #shorts #karate by My Trainer Omkar 6,175,817 views 1 year ago 6 seconds - play Short"':
+      - /url: /shorts/uDVGDE2Sk1c
+      - text: "Martial Arts fight training #shorts #karate"
+  - button "Action menu"
+  - text: 6.1M views •1 year ago
+  - link "Go to channel":
+    - /url: /@mytraineromkar
+  - link "My Trainer Omkar":
+    - /url: /@mytraineromkar
+  - tooltip "tooltip"
+  - text: "shorts #short #shortvideo #shortsvideo #shortsfeed #shortsyoutube #shortvideos #viral #viralvideo #viralshorts #viralshort ..."
+  - tooltip "tooltip"
+  - 'heading "KARATE KID: LEGENDS - New Trailer (HD)" [level=3]':
+    - 'link "KARATE KID: LEGENDS - New Trailer (HD)"':
+      - /url: /watch?v=LhRXf-yEQqA&pp=ygUGS2FyYXRl
+  - button "Action menu"
+  - text: 22M views •3 weeks ago
+  - link "Go to channel":
+    - /url: /@sonypictures
+  - link "Sony Pictures Entertainment":
+    - /url: /@sonypictures
+  - tooltip "tooltip"
+  - img "Verified":
+    - paragraph
+    - tooltip "tooltip"
+  - text: "Remember what you're fighting for. Jackie Chan, Ben Wang, and Ralph Macchio star in Karate Kid: Legends - coming soon ..."
+  - tooltip "tooltip"
+  - img "Closed captions":
+    - paragraph: CC
+  - heading "Karate Belts#shorts by Michael_Martial_Arts 584,729 views 4 months ago 19 seconds - play Short" [level=3]:
+    - link "Karate Belts#shorts by Michael_Martial_Arts 584,729 views 4 months ago 19 seconds - play Short":
+      - /url: /shorts/N7Zx0jIui7A
+      - text: Karate Belts#shorts
+  - button "Action menu"
+  - text: 584K views •4 months ago
+  - link "Go to channel":
+    - /url: /@michael_martial_arts
+  - link "Michael_Martial_Arts":
+    - /url: /@michael_martial_arts
+  - tooltip "tooltip"
+  - 'heading "#karate#martial#selfdefense#combatsport #call 8866717147 by Kutch Martial Art Academy | कच्छ मार्शल आर्ट 4,818,347 views 2 years ago 15 seconds - play Short" [level=3]':
+    - 'link "#karate#martial#selfdefense#combatsport #call 8866717147 by Kutch Martial Art Academy | कच्छ मार्शल आर्ट 4,818,347 views 2 years ago 15 seconds - play Short"':
+      - /url: /shorts/KUebiwfVazg
+      - text: "#karate#martial#selfdefense#combatsport #call 8866717147"
+  - button "Action menu"
+  - text: 4.8M views •2 years ago
+  - link "Go to channel":
+    - /url: /@KarateClasses
+  - link "Kutch Martial Art Academy | कच्छ मार्शल आर्ट":
+    - /url: /@KarateClasses
+  - tooltip "tooltip"
+  - text: "karateclassesingandhidham #martialartsingandhidham #karatenearme #nearestkarateclasses #karateclassesnearme ..."
+  - tooltip "tooltip"
+  - 'heading "Spin Hook Kick 🥋☠️ #tutorial #taekwondo #karate #training #motivation #tricks #speed #power #shorts by MultiOut 676,957 views 4 months ago 11 seconds - play Short" [level=3]':
+    - 'link "Spin Hook Kick 🥋☠️ #tutorial #taekwondo #karate #training #motivation #tricks #speed #power #shorts by MultiOut 676,957 views 4 months ago 11 seconds - play Short"':
+      - /url: /shorts/s74RyoCFV0g
+      - text: "Spin Hook Kick 🥋☠️ #tutorial #taekwondo #karate #training #motivation #tricks #speed #power #shorts"
+  - button "Action menu"
+  - text: 676K views •4 months ago
+  - link "Go to channel":
+    - /url: /@MultiOut-DivPk
+  - link "MultiOut":
+    - /url: /@MultiOut-DivPk
+  - tooltip "tooltip"
+  - img "Verified":
+    - paragraph
+    - tooltip "tooltip"
+  - text: "Spin Hook Kick ☠️ #tutorial #taekwondo #karate #training #motivation #tricks #speed #power #shorts."
+  - tooltip "tooltip"
+  - img "4K":
+    - paragraph: 4K
+  - heading "When A UFC Killer Challenges Martial Artists" [level=3]:
+    - link "When A UFC Killer Challenges Martial Artists":
+      - /url: /watch?v=EWdMEVtMIFM&pp=ygUGS2FyYXRl0gcJCYQJAYcqIYzv
+  - button "Action menu"
+  - text: 539K views •6 days ago
+  - link "Go to channel":
+    - /url: /@KARATEbyJesse
+  - link "Jesse Enkamp":
+    - /url: /@KARATEbyJesse
+  - tooltip "tooltip"
+  - img "Verified":
+    - paragraph
+    - tooltip "tooltip"
+  - text: Training & sparring UFC champion Jiri Prochazka @JiriProchazkaBJP Download the app MacroFactor and use code "KARATE" ...
+  - tooltip "tooltip"
+  - img "New":
+    - paragraph: New
+  - img "4K":
+    - paragraph: 4K
+  - heading "#KARATE Self-Defence TECHNIQUE🥋#martialarts techniques🔥 by KARATE FIGHT 360 BD 5,508,210 views 2 years ago 17 seconds - play Short" [level=3]:
+    - link "#KARATE Self-Defence TECHNIQUE🥋#martialarts techniques🔥 by KARATE FIGHT 360 BD 5,508,210 views 2 years ago 17 seconds - play Short":
+      - /url: /shorts/fsJPcj7GxNw
+      - text: "#KARATE Self-Defence TECHNIQUE🥋#martialarts techniques🔥"
+  - button "Action menu"
+  - text: 5.5M views •2 years ago
+  - link "Go to channel":
+    - /url: /@karatefight360bd5
+  - link "KARATE FIGHT 360 BD":
+    - /url: /@karatefight360bd5
+  - tooltip "tooltip"
+  - text: Karate techniques Karate training karate video karate moves Karate practice Martial arts techniques Self defence techniques ...
+  - tooltip "tooltip"
+  - 'heading "Most important karate techniques | #karatetechniques #karate #karatesir by KARATE SIR 671,999 views 3 months ago 5 seconds - play Short" [level=3]':
+    - 'link "Most important karate techniques | #karatetechniques #karate #karatesir by KARATE SIR 671,999 views 3 months ago 5 seconds - play Short"':
+      - /url: /shorts/RWQ0b3mnfjA
+      - text: "Most important karate techniques | #karatetechniques #karate #karatesir"
+  - button "Action menu"
+  - text: 671K views •3 months ago
+  - link "Go to channel":
+    - /url: /@KARATESIR
+  - link "KARATE SIR":
+    - /url: /@KARATESIR
+  - tooltip "tooltip"
+  - heading "Easy VS Hard Kicks by Nat Hearn 5,753,159 views 11 months ago 13 seconds - play Short" [level=3]:
+    - link "Easy VS Hard Kicks by Nat Hearn 5,753,159 views 11 months ago 13 seconds - play Short":
+      - /url: /shorts/T6w6nf4_05A
+      - text: Easy VS Hard Kicks
+  - button "Action menu"
+  - text: 5.7M views •11 months ago
+  - link "Go to channel":
+    - /url: /@nathearn
+  - link "Nat Hearn":
+    - /url: /@nathearn
+  - tooltip "tooltip"
+- 'link "girls fight | Girl''s kumite | karate event | superb point | #shorts, 4 million views - play Short"':
+  - /url: /shorts/cB-8OgVCKWw
+```
+
+# Test source
+
+```ts
+   1 | import { test, expect } from '@playwright/test';
+   2 |
+   3 | import path from 'path';
+   4 | import { readExcelFile } from '../../src/excelhelper';
+   5 |
+   6 | const filepath = path.join(__dirname,'../../TestData/QA/testdataxl.xlsx');
+   7 | const records = readExcelFile(filepath);
+   8 |
+   9 | for(const record of records){
+  10 |
+  11 |     test(`test Data Driven using JSON : ${record.Skill1}`, async ({ page }) => {
+  12 |         await page.goto('https://www.youtube.com/');
+  13 |         await page.getByRole('combobox', { name: 'Search' }).click();
+  14 |         await page.getByRole('combobox', { name: 'Search' }).fill(record.Skill1);
+  15 |         await page.getByRole('button', { name: 'Search', exact: true }).click();
+> 16 |         await expect(page.locator('#channel-title')).toContainText(record.Skill1);
+     |                                                      ^ Error: Timed out 5000ms waiting for expect(locator).toContainText(expected)
+  17 |     });
+  18 |
+  19 | }
+  20 |
+  21 |
+  22 |
+```

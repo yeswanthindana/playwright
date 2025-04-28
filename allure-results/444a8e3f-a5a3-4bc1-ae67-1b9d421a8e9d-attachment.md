@@ -1,0 +1,535 @@
+# Test info
+
+- Name: Parameterized Test of text API testing by tester talk
+- Location: C:\Users\indan\OneDrive\Documents\Playwright2\tests\playwright-mid\param.spec.ts:8:5
+
+# Error details
+
+```
+Error: Timed out 5000ms waiting for expect(locator).toBeVisible()
+
+Locator: getByRole('link', { name: 'API testing by tester talk' })
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  - expect.toBeVisible with timeout 5000ms
+  - waiting for getByRole('link', { name: 'API testing by tester talk' })
+
+    at C:\Users\indan\OneDrive\Documents\Playwright2\tests\playwright-mid\param.spec.ts:17:59
+```
+
+# Page snapshot
+
+```yaml
+- dialog
+- banner:
+  - button "Guide"
+  - link "YouTube Home":
+    - /url: /
+  - text: IN
+  - button "Skip navigation"
+  - search:
+    - combobox "Search" [expanded]: API testing by tester talk
+    - button "Clear search query"
+    - button "Search"
+  - button "Search with your voice"
+  - tooltip "tooltip"
+  - button "Settings"
+  - link "Sign in":
+    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253DAPI%252Btesting%252Bby%252Btester%252Btalk&hl=en&ec=65620
+- navigation:
+  - tab "Home":
+    - link "Home":
+      - /url: /
+  - tab "Shorts"
+  - tab "Subscriptions":
+    - link "Subscriptions":
+      - /url: /feed/subscriptions
+  - tab "You":
+    - link "You":
+      - /url: /feed/you
+  - tab "History":
+    - link "History":
+      - /url: /feed/history
+- main:
+  - tablist:
+    - tab "All" [selected]
+    - tab "Shorts"
+    - tab "Videos"
+    - tab "Unwatched"
+    - tab "Watched"
+    - tab "Recently uploaded"
+    - tab "Live"
+    - tab "Playlists"
+  - button "Search filters": Filters
+  - tooltip "tooltip"
+  - text: "Did you mean:"
+  - link "API testing by testers talk":
+    - /url: /results?search_query=API+testing+by+testers+talk
+  - heading "Switch to Chrome for a great browsing experience." [level=3]
+  - text: Compatible with any operating system. Make the switch to Chrome today. Download now.
+  - img "Sponsored":
+    - paragraph: Sponsored
+    - text: ·
+  - link "Google Chrome":
+    - /url: /@GoogleChrome
+  - tooltip "tooltip"
+  - link "Watch":
+    - /url: /watch?v=hm3-WbVUKoA
+  - link "Download":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CUTJVqFoOaKTPAoL3z7sPl6aHuQjL0oHSftOV1uejE2QQASAAYOWC5IOYDoIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGOkNyxKKgDBMgDCqoEsAJP0FGvKh7l2N6cNHzQVvuxizlCD1TtxjJjOEhoBI0gGvTi4aY2g67dvYjgiP2nZWrkDFZKVoe7tj1yw4jhkEM0kcA7h31he2VdxQqXKzADsA5l0lSovvQY4C-b4GG-LRCsLsgWw91mjWeHDrJptHOZ1Kqoza4lGTTEs4aRv2yEUNiLEd3DM_ucHThxuVurCmlAWvtlLnqeeeciKlpyoiOMqofI0hk6RBJhQJsB618Q0LJ4qU_q3nCws0Vt7G81jQbVYobnx1F1Ijnh1Ck8k-RTOhnWX_n0OE2SSEBLQ8NkZoDbxDlzmQnhdC7kg_VpZsmxPM-Ve1d0KH5ZjFbfS7ShYOrhRluDcOr7hEM8yWmyj8F_HBeLXRAfgA3Mfnh1evlFHGIfj_RLE7C7-MisicF0kgUHCBN4q9WzI6AGoQGAB-OJzSKQBwSoB_mxsQKoB4C6sQKoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB73NsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB4KqsQKoB4QIqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB-a8sQKoB8q6sQKoB_zLsQKoB_2ysQKoB_e4sQKoB_i4sQKoB83HsQKoB6XMsQKoB4HGG6gH_K-xAqgH1c4bqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxAqgHwsixApIIC2htMy1XYlZVS29BqAgB0ggpCIBBEAEYXjICggI6DIBCgMCAgICAgIACIkjZoNI1UBRYwKy6ttD4jAOaCR5odHRwczovL3d3dy5nb29nbGUuY29tL2Nocm9tZS-xCYyTBouJNHQ6yAkXyAmPAcgJwgG6CzUIAxAFGAQgBigBMAVAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBtALEuALAdoMJgoLEMCt0676zpC13AESAgEDGg0Y6sC0-FEg-NyB64MFQAFKAhAfmg0BEqANAaoNAklOyA0B0g3wAmh0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L2RkbS90cmFja2Nsay9ONTI5NS41MDg3ODEzREVNQU5ER0VOL0IzMjc1ODAzMy40MTE0MTU0NTg7ZGNfdHJrX2FpZD02MDMyODMxODI7ZGNfdHJrX2NpZD0yMjY0NTU5Mzg7ZGNfbGF0PTtkY19yZGlkPTt0YWdfZm9yX2NoaWxkX2RpcmVjdGVkX3RyZWF0bWVudD07dGZ1YT07Z2Rwcj0ke0dEUFJ9O2dkcHJfY29uc2VudD0ke0dEUFJfQ09OU0VOVF83NTV9O2x0ZD07ZGNfdGR2PTE7ZGNfcnVpPTE7ZGNfZXBzPUFIYXM4Y0NIcVFDMUdueUpWc2d1QUFpSnVvQWNZb0ZVU0Nxb2RsYmwtOGZnbkV4bVVzdHF5SGFnQ2h6eEt5aFRQeGNtOS1ZdXU0V3o3T0s4VzRnUHlBO2RjX3B1YmlkPTY_Z2FkX3NvdXJjZT0yuBP___________8BiBQFsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBuhcGKAAwADgB0BgB8BgB&ase=2&gclid=EAIaIQobChMIpMO6ttD4jAMVgvtzAR0X0yGHEAEYASAAEgISNvD_BwE&num=1&cid=CAASFeRocisz7s7zKDxb8sREUWo3muixjw&ad_cpn=%5BCPN%5D&sig=AOD64_3-E9JrdgMvsL3MHwKzqew3334_-Q&ctype=110&video_id=hm3-WbVUKoA&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=%5BNB%5D&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+  - button
+  - heading "API Testing by Testers Talk☑️" [level=3]:
+    - link "API Testing by Testers Talk☑️":
+      - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "API Testing Postman Tutorial Full Course 2024 · 2:43:38":
+    - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5
+  - link "REST Assured API Testing Tutorial Crash Course 2024 · 4:06:41":
+    - /url: /watch?v=o9KJhGHl49M&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5
+  - heading "Rest Assured API Testing by Testers Talk" [level=3]:
+    - link "Rest Assured API Testing by Testers Talk":
+      - /url: /watch?v=-HJjbich0dQ&list=PLUeDIlio4THG6Cq08lHiG0hdyftundzrj
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "REST Assured API Testing Full Course Overview · 4:13":
+    - /url: /watch?v=-HJjbich0dQ&list=PLUeDIlio4THG6Cq08lHiG0hdyftundzrj
+  - link "REST Assured API Testing Tutorial Crash Course 2024 · 4:06:41":
+    - /url: /watch?v=o9KJhGHl49M&list=PLUeDIlio4THG6Cq08lHiG0hdyftundzrj
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THG6Cq08lHiG0hdyftundzrj
+  - heading "Playwright API Testing by Testers Talk☑️" [level=3]:
+    - link "Playwright API Testing by Testers Talk☑️":
+      - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "Playwright API Testing Tutorial Crash Course 2024 · 1:59:55":
+    - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz&pp=0gcJCRIBOCosWNin
+  - link "Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial · 6:55:08":
+    - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+  - heading "API Testing Postman Tutorial Full Course 2024" [level=3]:
+    - link "API Testing Postman Tutorial Full Course 2024":
+      - /url: /watch?v=QKBa8lt5Wfo&pp=ygUaQVBJIHRlc3RpbmcgYnkgdGVzdGVyIHRhbGs%3D
+  - button "Action menu"
+  - text: 123K views •2 years ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - tooltip "tooltip"
+  - text: "API Testing Postman Tutorial Full Course 2023 | Postman Tutorial | Rest API Testing Tutorial | Restful Webservices #apitesting ..."
+  - tooltip "tooltip"
+  - text: 75 chapters
+  - button
+  - button "More"
+  - heading "API Testing using Postman Live Project" [level=3]:
+    - link "API Testing using Postman Live Project":
+      - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THEDI9a2UM1j-Y_yRRM89FKE
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "API Testing Postman Tutorial Full Course 2024 · 2:43:38":
+    - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THEDI9a2UM1j-Y_yRRM89FKE
+  - link "Postman API Testing Tutorial Chapter-01 | Postman API Testing Tutorial for Beginners · 34:11":
+    - /url: /watch?v=Yi2J-AJiFMs&list=PLUeDIlio4THEDI9a2UM1j-Y_yRRM89FKE
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THEDI9a2UM1j-Y_yRRM89FKE
+  - heading "Postman by Testers Talk☑️" [level=3]:
+    - link "Postman by Testers Talk☑️":
+      - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THGcgNP3_Ocb_I_l4ITai5QT
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "API Testing Postman Tutorial Full Course 2024 · 2:43:38":
+    - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THGcgNP3_Ocb_I_l4ITai5QT&pp=0gcJCRIBOCosWNin
+  - link "Postman API Testing Tutorial Chapter-01 | Postman API Testing Tutorial for Beginners · 34:11":
+    - /url: /watch?v=Yi2J-AJiFMs&list=PLUeDIlio4THGcgNP3_Ocb_I_l4ITai5QT
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THGcgNP3_Ocb_I_l4ITai5QT
+  - heading "Shorts" [level=2]
+  - button "More actions"
+  - link:
+    - /url: /shorts/no1174c5KxE
+  - heading "What is API testing?, 7K views - play Short" [level=3]:
+    - link "What is API testing?":
+      - /url: /shorts/no1174c5KxE
+  - button "More actions"
+  - link:
+    - /url: /shorts/txFXsAL5EMs
+  - heading "How much time does it take to learn API testing from scratch?, 23K views - play Short" [level=3]:
+    - link "How much time does it take to learn API testing from scratch?":
+      - /url: /shorts/txFXsAL5EMs
+  - button "More actions"
+  - link:
+    - /url: /shorts/HlVudkFKXwU
+  - heading "Postman API Testing Interview Questions (Part 1) | STAD Solution | Software Testing, 38K views - play Short" [level=3]:
+    - link "Postman API Testing Interview Questions (Part 1) | STAD Solution | Software Testing":
+      - /url: /shorts/HlVudkFKXwU
+  - button "More actions"
+  - link:
+    - /url: /shorts/8QbncQ3Hr-0
+  - heading "API testing with TechieQA, 78K views - play Short" [level=3]:
+    - link "API testing with TechieQA":
+      - /url: /shorts/8QbncQ3Hr-0
+  - button "More actions"
+  - link:
+    - /url: /shorts/waGYvqieD5E
+  - heading "Types of API Testing, 9.1K views - play Short" [level=3]:
+    - link "Types of API Testing":
+      - /url: /shorts/waGYvqieD5E
+  - button "More actions"
+  - link:
+    - /url: /shorts/QDRhfsFyBNE
+  - 'heading "How to test API in Postman? | What is API testing? #infysky #reactjs #laravel #razorpay #coding, 26K views - play Short" [level=3]':
+    - 'link "How to test API in Postman? | What is API testing? #infysky #reactjs #laravel #razorpay #coding"':
+      - /url: /shorts/QDRhfsFyBNE
+  - button "More actions"
+  - button "Next"
+  - heading "API Testing Full Course by Testers Talk" [level=3]:
+    - link "API Testing Full Course by Testers Talk":
+      - /url: /watch?v=UwH7VgOjIS0&list=PLUeDIlio4THGX-dWKs8fvbKQhOXcDFmBp
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "Postman API Testing Tutorial Chapter-04 | Postman API Testing Tutorial for Beginners · 17:52":
+    - /url: /watch?v=UwH7VgOjIS0&list=PLUeDIlio4THGX-dWKs8fvbKQhOXcDFmBp
+  - link "REST Assured API Testing Full Course Overview · 4:13":
+    - /url: /watch?v=-HJjbich0dQ&list=PLUeDIlio4THGX-dWKs8fvbKQhOXcDFmBp
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THGX-dWKs8fvbKQhOXcDFmBp
+  - heading "Rest Assured by Testers Talk☑️" [level=3]:
+    - link "Rest Assured by Testers Talk☑️":
+      - /url: /watch?v=-HJjbich0dQ&list=PLUeDIlio4THGL7lQXQwxsV9re_i0U2b0Q
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "REST Assured API Testing Full Course Overview · 4:13":
+    - /url: /watch?v=-HJjbich0dQ&list=PLUeDIlio4THGL7lQXQwxsV9re_i0U2b0Q
+  - link "Rest Assured API Automation Framework GitHub Repository · 0:51":
+    - /url: /watch?v=vHgjTkSn778&list=PLUeDIlio4THGL7lQXQwxsV9re_i0U2b0Q
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THGL7lQXQwxsV9re_i0U2b0Q
+  - heading "People also watched" [level=2]
+  - 'heading "LIVE API Testing Project #1 - From Start to Finish( Add to Resume)" [level=3]':
+    - 'link "LIVE API Testing Project #1 - From Start to Finish( Add to Resume)"':
+      - /url: /watch?v=VkfhINL956U&pp=ygUaQVBJIHRlc3RpbmcgYnkgdGVzdGVyIHRhbGs%3D
+  - button "Action menu"
+  - text: 192K views •Streamed 1 year ago
+  - link "Go to channel":
+    - /url: /@TheTestingAcademy
+  - link "The Testing Academy":
+    - /url: /@TheTestingAcademy
+  - tooltip "tooltip"
+  - img "Verified":
+    - paragraph
+    - tooltip "tooltip"
+  - text: ... in the world of API testing. Like, share, and subscribe to stay updated on more exciting projects to come! Let's test APIs together ...
+  - tooltip "tooltip"
+  - heading "API Testing using Postman Live Project Day-02 | LIVE | Testers Talk" [level=3]:
+    - link "API Testing using Postman Live Project Day-02 | LIVE | Testers Talk":
+      - /url: /watch?v=8Boj66-qacg&pp=ygUaQVBJIHRlc3RpbmcgYnkgdGVzdGVyIHRhbGs%3D
+  - button "Action menu"
+  - text: 2K views •Streamed 2 years ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - tooltip "tooltip"
+  - text: "#testerstalk #selenium #automationtesting #testing #testautomation #qa #sdet #softwaretesting #bdd #automationframework ..."
+  - tooltip "tooltip"
+  - heading "API Testing Automation | Access tokens | Authorization | Security | Rest Assured | Java -BDD" [level=3]:
+    - link "API Testing Automation | Access tokens | Authorization | Security | Rest Assured | Java -BDD":
+      - /url: /watch?v=FxN2ZY9Yt1c&pp=ygUaQVBJIHRlc3RpbmcgYnkgdGVzdGVyIHRhbGs%3D
+  - button "Action menu"
+  - text: 6.4K views •1 year ago
+  - link "Go to channel":
+    - /url: /@aceautomationacademy6926
+  - link "Ace Automation Academy":
+    - /url: /@aceautomationacademy6926
+  - tooltip "tooltip"
+  - text: This course is easy step by step approach to build a API Automation framework to test the secure apis via access bearer token ...
+  - tooltip "tooltip"
+  - link "1 hour, 6 minutes, 54 seconds <b>Test</b> rest assured and these are secure apis so I&#39;ll just uh secure uh secure access token so I&#39;ll just name this as um <b>API test</b> rest&nbsp;...":
+    - /url: /watch?v=FxN2ZY9Yt1c&t=4014s
+    - text: 1:06:54 Test rest assured and these are secure apis so I'll just uh secure uh secure access token so I'll just name this as um API test rest ...
+  - tooltip "tooltip"
+  - 'heading "Complete API Automation Framework-Rest Assured #sdet #automationtesting" [level=3]':
+    - 'link "Complete API Automation Framework-Rest Assured #sdet #automationtesting"':
+      - /url: /watch?v=FjnF-P7FY28&pp=ygUaQVBJIHRlc3RpbmcgYnkgdGVzdGVyIHRhbGs%3D
+  - button "Action menu"
+  - text: 24K views •4 months ago
+  - link "Go to channel":
+    - /url: /@tech_with_jatin
+  - link "Tech with Jatin":
+    - /url: /@tech_with_jatin
+  - tooltip "tooltip"
+  - text: Complete E2E API Automation Framework Tutorial (Combined Series) Learn how to build a professional-grade API testing ...
+  - tooltip "tooltip"
+  - link "0 seconds Hey friends how&#39;s it going so in today&#39;s video we will be building a complete <b>API test</b> automation framework from scratch now if&nbsp;...":
+    - /url: /watch?v=FjnF-P7FY28
+    - text: 0:00 Hey friends how's it going so in today's video we will be building a complete API test automation framework from scratch now if ...
+  - tooltip "tooltip"
+  - text: +6 more
+  - 'heading "Playwright TypeScript #23 How to use Codegen for Record & Play Test | Playwright Automation Tutorial" [level=3]':
+    - 'link "Playwright TypeScript #23 How to use Codegen for Record & Play Test | Playwright Automation Tutorial"':
+      - /url: /watch?v=8WfwUHhAAlo&pp=ygUaQVBJIHRlc3RpbmcgYnkgdGVzdGVyIHRhbGs%3D
+  - button "Action menu"
+  - text: 136 views •2 days ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - tooltip "tooltip"
+  - text: "Playwright TypeScript #23 How to use Codegen for Record & Play Test | Playwright Automation Tutorial | Playwright Testing ..."
+  - tooltip "tooltip"
+  - img "New":
+    - paragraph: New
+  - img "4K":
+    - paragraph: 4K
+  - heading "REST Assured API Testing Tutorial Crash Course 2024" [level=3]:
+    - link "REST Assured API Testing Tutorial Crash Course 2024":
+      - /url: /watch?v=o9KJhGHl49M&pp=ygUaQVBJIHRlc3RpbmcgYnkgdGVzdGVyIHRhbGs%3D
+  - button "Action menu"
+  - text: 42K views •2 years ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - tooltip "tooltip"
+  - text: "Rest Assured API Testing Tutorial Full Course #restassured #apitesting #javatestng #restapitesting Rest Assured tutorial for ..."
+  - tooltip "tooltip"
+  - text: 52 chapters
+  - button
+  - button "More"
+  - heading "Shorts" [level=2]
+  - button "More actions"
+  - link:
+    - /url: /shorts/QDRhfsFyBNE
+  - 'heading "How to test API in Postman? | What is API testing? #infysky #reactjs #laravel #razorpay #coding, 26K views - play Short" [level=3]':
+    - 'link "How to test API in Postman? | What is API testing? #infysky #reactjs #laravel #razorpay #coding"':
+      - /url: /shorts/QDRhfsFyBNE
+  - button "More actions"
+  - link:
+    - /url: /shorts/hr7BPXHD4tM
+  - heading "What is the purpose of API Testing, 30K views - play Short" [level=3]:
+    - link "What is the purpose of API Testing":
+      - /url: /shorts/hr7BPXHD4tM
+  - button "More actions"
+  - link:
+    - /url: /shorts/T34vwJx2rHI
+  - 'heading "#19 Does Playwright supports API Testing? #playwright #testing #automation #tutorial, 2K views - play Short" [level=3]':
+    - 'link "#19 Does Playwright supports API Testing? #playwright #testing #automation #tutorial"':
+      - /url: /shorts/T34vwJx2rHI
+  - button "More actions"
+  - link:
+    - /url: /shorts/8tb2kbcbBUo
+  - 'heading "What Is POSTMAN? #apitesting #api #testing #shortsyoutube, 20K views - play Short" [level=3]':
+    - 'link "What Is POSTMAN? #apitesting #api #testing #shortsyoutube"':
+      - /url: /shorts/8tb2kbcbBUo
+  - button "More actions"
+  - link:
+    - /url: /shorts/MIz0hs-ufsI
+  - heading "PUT Vs Patch - Api Testing Interview Questions, 14K views - play Short" [level=3]:
+    - link "PUT Vs Patch - Api Testing Interview Questions":
+      - /url: /shorts/MIz0hs-ufsI
+  - button "More actions"
+  - link:
+    - /url: /shorts/KYBuVCfiQrI
+  - 'heading "API TESTING : Client Errors: 4XX : SDET Automation Testing Interview Questions & Answers, 12K views - play Short" [level=3]':
+    - 'link "API TESTING : Client Errors: 4XX : SDET Automation Testing Interview Questions & Answers"':
+      - /url: /shorts/KYBuVCfiQrI
+  - button "More actions"
+  - button "Next"
+  - heading "Playwright API Testing Tutorial Crash Course 2024" [level=3]:
+    - link "Playwright API Testing Tutorial Crash Course 2024":
+      - /url: /watch?v=lM-lqPun9P8&pp=ygUaQVBJIHRlc3RpbmcgYnkgdGVzdGVyIHRhbGvSBwkJhAkBhyohjO8%3D
+  - button "Action menu"
+  - text: 24K views •1 year ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - tooltip "tooltip"
+  - text: Playwright API Testing - Playwright enables reliable end-to-end testing for modern web apps. Playwright is an open-source ...
+  - tooltip "tooltip"
+  - text: 15 chapters
+  - button "Playwright API Testing | Setup playwright api testing | Postman collections Playwright github repo | Create POST api request in playwright | Validate status code in playwright | Validate api response in playwright | Playwright Post api request | Playwright Post api request using dynamic request body | Post api request using dynamic json in playwright | Get api request in playwright | Query parameters in playwright | Playwright Put api request | Patch api request in playwright | Playwright Delete api request | Allure report with Playwright"
+  - button "More"
+  - heading "Rest Assured API Automation Framework" [level=3]:
+    - link "Rest Assured API Automation Framework":
+      - /url: /watch?v=-HJjbich0dQ&list=PLUeDIlio4THGmQIP25u4alXc9hf1Ojj5W
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "REST Assured API Testing Full Course Overview · 4:13":
+    - /url: /watch?v=-HJjbich0dQ&list=PLUeDIlio4THGmQIP25u4alXc9hf1Ojj5W
+  - link "Rest Assured API Automation Framework GitHub Repository · 0:51":
+    - /url: /watch?v=vHgjTkSn778&list=PLUeDIlio4THGmQIP25u4alXc9hf1Ojj5W
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THGmQIP25u4alXc9hf1Ojj5W
+  - heading "Playwright by Testers Talk☑️" [level=3]:
+    - link "Playwright by Testers Talk☑️":
+      - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial · 6:55:08":
+    - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+  - link "Playwright API Testing Tutorial Crash Course 2024 · 1:59:55":
+    - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+  - heading "API Testing FREE TRAINING | Complete Guide | LIVE | Testers Talk" [level=3]:
+    - link "API Testing FREE TRAINING | Complete Guide | LIVE | Testers Talk":
+      - /url: /watch?v=7vXcwuoCFSk&pp=ygUaQVBJIHRlc3RpbmcgYnkgdGVzdGVyIHRhbGvSBwkJhAkBhyohjO8%3D
+  - button "Action menu"
+  - text: 787 views •Streamed 2 years ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - tooltip "tooltip"
+  - text: "API Testing Postman Tutorial Full Course 2023 | Postman Tutorial | Rest API Testing Tutorial | Restful Webservices #apitesting ..."
+  - tooltip "tooltip"
+  - text: 75 chapters
+  - button
+  - button "More"
+  - heading "Postman API Testing Tutorial Chapter-01 | Postman API Testing Tutorial for Beginners" [level=3]:
+    - link "Postman API Testing Tutorial Chapter-01 | Postman API Testing Tutorial for Beginners":
+      - /url: /watch?v=Yi2J-AJiFMs&pp=ygUaQVBJIHRlc3RpbmcgYnkgdGVzdGVyIHRhbGs%3D
+  - button "Action menu"
+  - text: 13K views •2 years ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - tooltip "tooltip"
+  - text: Postman API Testing Tutorial Chapter-01 | Postman API Testing Tutorial Full Course 2023 | Postman for beginners | Rest API ...
+  - tooltip "tooltip"
+  - text: 25 chapters
+  - button "API Testing Tutorial Postman Tutorial overview | Postman collections link | Chapter01 - API Testing Tutorial | What is API? | How a API works? | Types of API - private api public api partner api composit api | What are webservices? | Types of webservices? SOAP webservice & RESTful webservices | What are the softwares required? | Postman sample api request | How install postman tool? | Open postman tool | How to create collections in postman? | How to create folders in postman? | Create GET API request | Save api request into postman collections | API Response | Duplicate API request in postman | How to create POST api request in postman | How to add headers in api reauest | How to add api request body? | JWT JSON Web Token | How to create PUT api request | using JSON web token JWT | How to create DELETE api request"
+  - button "More"
+  - heading "Postman API Testing Tutorial Chapter-02 | Postman API Testing Tutorial for Beginners" [level=3]:
+    - link "Postman API Testing Tutorial Chapter-02 | Postman API Testing Tutorial for Beginners":
+      - /url: /watch?v=IhlZKYw55kM&pp=ygUaQVBJIHRlc3RpbmcgYnkgdGVzdGVyIHRhbGs%3D
+  - button "Action menu"
+  - text: 7.1K views •2 years ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - tooltip "tooltip"
+  - text: Postman API Testing Tutorial Chapter-02 Full Course 2023 | Postman Tutorial | Rest API Testing Tutorial for beginners | Restful ...
+  - tooltip "tooltip"
+  - text: 18 chapters
+  - button "API Testing Tutorial Postman Tutorial for beginners | Negative API Test Cases or Negative api tests | API Response 404 not found | API Response 400 bad request | How to declare environment variables in postman | How to use environment variables in postman | How to save api response in postman | Access environment variable value in postman | API Response 200 status code | Postman console | How to use postman console | How to write postman automation api tests? | How to verify status code using javascript | Test Results in postman | How to validate status code in postman | How to validate api response body | Assert api response headers | assert api response time"
+  - button "More"
+  - heading "Postman API Testing Tutorial Chapter-03 | Postman API Testing Tutorial for Beginners" [level=3]:
+    - link "Postman API Testing Tutorial Chapter-03 | Postman API Testing Tutorial for Beginners":
+      - /url: /watch?v=eFjZjTk45fs&pp=ygUaQVBJIHRlc3RpbmcgYnkgdGVzdGVyIHRhbGs%3D
+  - button "Action menu"
+  - text: 3.3K views •2 years ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - tooltip "tooltip"
+  - text: Postman API Testing Tutorial Chapter-03 | Postman API Testing Tutorial Full Course 2023 | Postman for beginners | Rest API ...
+  - tooltip "tooltip"
+  - text: 10 chapters
+  - button "API Testing Tutorial Postman Tutorial overview | Validate JSON key value using assertions | Assert Nested JSON object | Curl command in postman | Export api into Curl command in postman | Import curl command in postman | How to run postman collections? | How to execute postman folders? | How skip api tests from execution? | How to export postman collections into JSON file"
+  - button "More"
+  - heading "RoadMap To Learn API Testing" [level=3]:
+    - link "RoadMap To Learn API Testing":
+      - /url: /watch?v=ABqR45MLw5c&pp=ygUaQVBJIHRlc3RpbmcgYnkgdGVzdGVyIHRhbGs%3D
+  - button "Action menu"
+  - text: 2.3K views •1 year ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - tooltip "tooltip"
+  - text: "RoadMap To Learn API Testing #apitesting #postman #restassured #restapi #testautomation #automationframework ..."
+  - tooltip "tooltip"
+  - text: 5 chapters
+  - button "How to learn API Testing | How to learn Postman API Testing | How to learn API Automation Testing | Postman API Testing | Rest Assured API Testing"
+  - button "More"
+  - heading "#3 Mastering Playwright API Automation & Mocking with TypeScript | Playwright Automation Tutorials" [level=3]:
+    - link "#3 Mastering Playwright API Automation & Mocking with TypeScript | Playwright Automation Tutorials":
+      - /url: /watch?v=iGQ-qTLEPLw&pp=ygUaQVBJIHRlc3RpbmcgYnkgdGVzdGVyIHRhbGs%3D
+  - button "Action menu"
+  - text: 2.9K views •2 months ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - tooltip "tooltip"
+  - text: API Automation with Playwright & API Mocking with Playwright using TypeScript From Scratch | Playwright Automation From ...
+  - tooltip "tooltip"
+  - img "4K":
+    - paragraph: 4K
+  - text: 26 chapters
+  - button
+  - button "More"
+  - heading "API Testing using Postman Live Project Day-03 | LIVE | Testers Talk" [level=3]:
+    - link "API Testing using Postman Live Project Day-03 | LIVE | Testers Talk":
+      - /url: /watch?v=pBJ0QB5OFNs&pp=ygUaQVBJIHRlc3RpbmcgYnkgdGVzdGVyIHRhbGs%3D
+  - button "Action menu"
+  - text: 718 views •Streamed 2 years ago
+  - link "Go to channel":
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - tooltip "tooltip"
+  - text: "#testerstalk #selenium #automationtesting #testing #testautomation #qa #sdet #softwaretesting #bdd #automationframework ..."
+  - tooltip "tooltip"
+  - text: 9 chapters
+  - button "Introduction | Get Booking Details | Nested Json Object | Curl Command | Importing the Command | Executing the entire collection | Executing any specific folder API request | Excluding any API request from the execution | Exporting the collections and environment variables"
+  - button "More"
+```
+
+# Test source
+
+```ts
+   1 | import { test ,expect } from '@playwright/test';
+   2 |
+   3 | const data = ['Cypress by tester talk','Playwright by tester talk','API testing by tester talk']
+   4 |
+   5 |
+   6 | for(const search of data){
+   7 |
+   8 | test(`Parameterized Test of text ${search}`, async ({ page }) => {
+   9 |
+  10 |    await page.goto('https://www.youtube.com/');
+  11 |    await page.getByRole('combobox', { name: 'Search' }).click();
+  12 |    await page.getByRole('combobox', { name: 'Search' }).press('CapsLock');
+  13 |    await page.getByRole('combobox', { name: 'Search' }).fill('C');
+  14 |    await page.getByRole('combobox', { name: 'Search' }).press('CapsLock');
+  15 |    await page.getByRole('combobox', { name: 'Search' }).fill(search);
+  16 |    await page.getByRole('button', { name: 'Search', exact: true }).click();
+> 17 |    await expect(page.getByRole('link', { name: search })).toBeVisible();
+     |                                                           ^ Error: Timed out 5000ms waiting for expect(locator).toBeVisible()
+  18 |    await expect(page.getByRole('link', { name: search })).toBeVisible();
+  19 |
+  20 |
+  21 | })
+  22 |
+  23 | }
+```
